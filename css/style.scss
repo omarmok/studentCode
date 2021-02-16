@@ -67,6 +67,8 @@
   }
   @import "header.scss";
   @import "userarea.scss";
+  @import "advertisementboard.scss";
+  @import "Systems.scss";
 
 
 
@@ -78,6 +80,34 @@ body{
     overflow-x: hidden;
     font-family: '29LT Bukra';
 }
+a {
+    -webkit-transition: transition-duration, 0.5s ease;
+    -webkit-transition: 0.5s ease, -webkit-transition-duration;
+    transition: 0.5s ease, -webkit-transition-duration;
+    transition: transition-duration, 0.5s ease;
+    transition: transition-duration, 0.5s ease, -webkit-transition-duration;
+    text-decoration: none !important;
+    cursor: pointer;
+  }
+
+
+  a:hover,
+  a:focus {
+    text-decoration: none !important;
+  }
+
+  ul,
+  ol {
+    list-style: none;
+    padding-right: 0;
+  }
+
+  
+
+  i {
+    font-family: fontawesome !important;
+  }
+
 
 
 .shadow-sm {
@@ -322,7 +352,7 @@ body{
             background: #FE350C 0% 0% no-repeat padding-box;
             border-radius: 5px;
             color:#fff;
-            font-size: 12px;
+            font-size: 14px;
             font-weight: bold;
             display: flex;
             align-items: center;
