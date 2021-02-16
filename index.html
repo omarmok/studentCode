@@ -77,24 +77,98 @@
 </header>
 
 <!-- topcontainer     -->
-            <div class="container-fluid mt-3 p-0">
+            <div class="container-fluid mt-4 p-0">
             <div class="row">
-            <div class="col-md-3 col-sm-12">
-                <div class="bg-white rounded shadow-sm p-2 userarea">
-                    userare    
+
+                <!-- start user area -->
+            <div class="col-md-2 col-sm-12">
+                <div class="bg-white customrounded shadow-sm  userarea">
+                    <div class="round-wrap">
+                       <div class="roundtwo">
+                        <div class="round-animation">
+                            <img alt="" src="./images/user.jpg"></div>
+                       </div>
+                    </div>
+
+                    <div class="username">احمد محمد علي احمد</div>
+                    <div class="usercollage">
+                        كلية الحساب الالي
+
+                    </div>
+              <div class="d-flex mt-1 buttons">
+                <button class="btn green__btn ml-1" data-toggle="modal" data-target="#personalmodal"> 
+                    <img alt="" src="./images/information.svg">
+                     الشخصية</button>
+                <button class="btn red__btn" data-toggle="modal" data-target="#studymodal"> 
+                    <img alt="" src="./images/information.svg">
+                     الدراسية</button>
+              </div>
+
+
                 </div>
             </div>
 
 
-            <div class="col-md-6 col-sm-12">
-                <div class="bg-white rounded shadow-sm p-2 advertisementboard">
+            <!-- personalmodal -->
+<div class="modal fade" id="personalmodal" tabindex="-1" role="dialog" aria-labelledby="personalmodalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="personalmodalLabel">    معلوماتي الشخصية
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            معلوماتي الشخصية
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">إغلاق</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+            <!-- studymodal -->
+<div class="modal fade" id="studymodal" tabindex="-1" role="dialog" aria-labelledby="studymodalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="studymodalLabel">  معلوماتي الدراسية
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body"> 
+            معلوماتي الدراسية
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">إغلاق</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+      <!-- end user area -->
+
+
+
+      
+
+            <div class="col-md-7 col-sm-12">
+                <div class="bg-white customrounded shadow-sm  advertisementboard">
                     advertisements board
                 </div>
             </div>
 
 
             <div class="col-md-3 col-sm-12">
-                <div class="bg-white rounded shadow-sm p-2 Systemsrograms">
+                <div class="bg-white customrounded shadow-sm Systemsrograms">
                     Systems and programs    
                 </div>
             </div>
@@ -108,7 +182,7 @@
                 <div class="row">
 
             <div class="col">
-                <div class="bg-white rounded shadow-sm p-2 advertisin">
+                <div class="bg-white customrounded shadow-sm  advertisin">
                     Schedule    
                 </div>
             </div>
@@ -122,7 +196,7 @@
 <div class="container-fluid mt-3 p-0">
     <div class="row">
     <div class="col-md-3 col-sm-12">
-        <div class="bg-white rounded shadow-sm p-2 userare">
+        <div class="bg-white customrounded shadow-sm userare">
             app    
         </div>
     </div>
@@ -132,14 +206,14 @@
 
 
     <div class="col-md-3 col-sm-12">
-        <div class="bg-white rounded shadow-sm p-2 systems">
+        <div class="bg-white customrounded shadow-sm  systems">
             events    
         </div>
     </div>
 
 
     <div class="col-md-6 col-sm-12">
-        <div class="bg-white rounded shadow-sm p-2 advertisin">
+        <div class="bg-white customrounded shadow-sm  advertisin">
             news    
         </div>
     </div>
@@ -153,7 +227,7 @@
         <div class="row">
 
     <div class="col">
-        <div class="bg-white rounded shadow-sm p-2 advertisin">
+        <div class="bg-white customrounded shadow-sm  advertisin">
             twitter    
         </div>
     </div>
@@ -167,7 +241,7 @@
 <div class="container-fluid mt-3 p-0">
     <div class="row">
     <div class="col-md-4 col-sm-12">
-        <div class="bg-white rounded shadow-sm p-2 userare">
+        <div class="bg-white customrounded shadow-sm advertis">
             advertis    
         </div>
     </div>
@@ -177,14 +251,14 @@
 
 
     <div class="col-md-4 col-sm-12">
-        <div class="bg-white rounded shadow-sm p-2 systems">
+        <div class="bg-white customrounded shadow-sm systems">
             important    
         </div>
     </div>
 
 
     <div class="col-md-4 col-sm-12">
-        <div class="bg-white rounded shadow-sm p-2 advertisin">
+        <div class="bg-white customrounded shadow-sm advertisin">
           opinion
         </div>
     </div>
