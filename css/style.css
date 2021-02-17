@@ -280,15 +280,18 @@ header .leftarea .notification span {
   border-radius: 10px 10px 0 0;
   font-size: 18px;
   font-weight: bold;
+  position: relative;
+  overflow: hidden;
 }
 
 .Systemsrograms .title img {
   margin-left: 10px;
   height: 40px;
+  z-index: 10;
 }
 
 .Systemsrograms .systems {
-  height: 180px;
+  height: 220px;
   overflow-y: scroll;
   margin: 15px;
 }
@@ -323,8 +326,8 @@ header .leftarea .notification span {
 }
 
 .Systemsrograms .systems .systems__container .system:hover {
-  -webkit-box-shadow: inset 8px 8px 8px #eb6f46, inset -8px -8px 8px #ffab8f;
-          box-shadow: inset 8px 8px 8px #eb6f46, inset -8px -8px 8px #ffab8f;
+  -webkit-box-shadow: inset 8px 8px 8px #eb6f46, inset -8px -8px 8px #ff7a4e;
+          box-shadow: inset 8px 8px 8px #eb6f46, inset -8px -8px 8px #ff7a4e;
   background: #ff7a4e;
   color: #fff;
 }
@@ -349,6 +352,60 @@ header .leftarea .notification span {
 
 .Systemsrograms ::-webkit-scrollbar-thumb:hover {
   background: #fe350c;
+}
+
+.Systemsrograms .title::after {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 7.5px;
+  background-color: #fdd101;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-animation: title 5s linear infinite;
+  position: absolute;
+}
+
+.Systemsrograms .title::before {
+  content: '';
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border-radius: 7.5px;
+  background-color: #fdd101;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  z-index: 9;
+  left: -31px;
+  top: -40px;
+}
+
+@-webkit-keyframes title {
+  0%, 100% {
+    top: 3px;
+    left: 10px;
+  }
+  50% {
+    top: 20px;
+    left: 20%;
+  }
+}
+
+@keyframes title {
+  0%, 100% {
+    top: 3px;
+    left: 10px;
+  }
+  50% {
+    top: 20px;
+    left: 20%;
+  }
 }
 
 body {
