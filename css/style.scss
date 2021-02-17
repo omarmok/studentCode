@@ -65,10 +65,10 @@
     font-style: normal;
     font-display: swap;
   }
-  @import "header.scss";
-  @import "userarea.scss";
-  @import "advertisementboard.scss";
-  @import "Systems.scss";
+  @import "_header.scss";
+  @import "_userarea.scss";
+  @import "_advertisementboard.scss";
+  @import "_Systems.scss";
 
 
 
@@ -368,4 +368,13 @@ a {
                 background: #81b400 ;
             }
 
+        }
+
+        .stratchedRow{
+            height: 300px;
+            align-items: stretch;
+            .customrounded {
+                align-self: stretch;
+                height: 100%;
+            }
         }

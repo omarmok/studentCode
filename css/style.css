@@ -256,6 +256,10 @@ header .leftarea .notification span {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
 }
 
 .Systemsrograms .title {
@@ -328,6 +332,23 @@ header .leftarea .notification span {
 .Systemsrograms .systems .systems__container .system:hover img {
   -webkit-filter: brightness(0) invert(1);
           filter: brightness(0) invert(1);
+}
+
+.Systemsrograms ::-webkit-scrollbar {
+  width: 10px;
+}
+
+.Systemsrograms ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.Systemsrograms ::-webkit-scrollbar-thumb {
+  background: #81b400;
+  border-radius: 10px;
+}
+
+.Systemsrograms ::-webkit-scrollbar-thumb:hover {
+  background: #fe350c;
 }
 
 body {
@@ -646,5 +667,19 @@ i {
 
 .green__btn:hover {
   background: #81b400;
+}
+
+.stratchedRow {
+  height: 300px;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.stratchedRow .customrounded {
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  height: 100%;
 }
 /*# sourceMappingURL=style.css.map */
