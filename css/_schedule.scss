@@ -1,0 +1,108 @@
+.schedule{
+    .title{
+        background: #2aa265;
+        background: radial-gradient(circle, #2aa265 0%, #0e7741 100%);
+        padding: 15px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        /* flex-direction: column; */
+        color: #fff;
+        /* -webkit-box-orient: vertical; */
+        /* -webkit-box-direction: normal; */
+        -ms-flex-direction: column;
+        /* flex-direction: column; */
+        /* margin-left: 40px; */
+        border-radius: 10px 10px 0 0;
+        font-size: 18px;
+        font-weight: bold;
+        position: relative;
+        overflow: hidden;
+        /* width: 200px; */
+        height: 100px;
+        margin-bottom: 5px;
+        text-align: right;
+        span{
+            z-index: 99999;
+        }
+
+        img{
+            margin-left: 20px;
+            height: 40px;
+            z-index: 10;
+          }
+    }
+
+    .table td, .table th{
+        text-align: center;
+        width: 5%;
+    }
+    .table{
+        th{
+            color:#fff;
+            background-color: #39539e;
+            border-color: #4966bb;
+        }
+        .days{
+            background-color: #fffdfd;
+            color: #423f3f;
+            font-weight: 600;
+        }
+        .lesson{
+            background-color: rgba(139, 195, 74, 0.06);
+            color: #009688;
+            font-weight: 500;
+        }
+    }
+        .empety{
+            background: #efefef;
+        }
+
+}
+
+
+
+.schedule .title::after{
+    content: '';
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 7.5px;
+    background-color: #fdd101;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    z-index: 9;
+    right: -31px;
+    top: -40px;
+    -webkit-animation: title 3s linear infinite;
+ }
+
+
+
+
+ 
+@keyframes title {
+    0%, 100% {
+        top:-20px;
+        left: 10px;
+    }
+
+    // 50% {
+    //     top:30px;
+    //     left: 10%;
+    // }
+
+    50% {
+        top:20px;
+        left: 20%;
+    }
+
+}

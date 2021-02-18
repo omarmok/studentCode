@@ -1,10 +1,12 @@
 .Systemsrograms{
     padding: 0;
     flex-direction: column;
+    box-shadow: 4px 4px 10px 0 #d1d9e6, -4px -4px 10px 0 #fff;
+    background-color: #ecf0f3;
 
     .title{
         background: #FF7A4E;
-        padding: 5px;
+        padding: 15px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -21,7 +23,7 @@
         font-size: 18px;
         font-weight: bold;
         position: relative;
-overflow: hidden;
+        overflow: hidden;
 
       
     
@@ -34,7 +36,8 @@ overflow: hidden;
     }
 
 .systems{
-    height:220px;
+    min-height: 300px;
+    max-height: 300px;
     overflow-y: scroll;
     margin: 15px;
     .systems__container{
@@ -57,8 +60,7 @@ overflow: hidden;
     color: #6a6767;
     margin: 4px;
     text-align: center;
-    -webkit-box-shadow: inset 8px 8px 8px #efefef, inset -8px -8px 8px #fff;
-    box-shadow: inset 8px 8px 8px #efefef, inset -8px -8px 8px #fff;
+    box-shadow: 4px 4px 10px 0 #d1d9e6, -4px -4px 10px 0 #fff;
     border-radius: 5px;
     padding: 15px;
     // font-weight: 600;
