@@ -265,7 +265,7 @@ header .leftarea .notification span {
           flex-direction: column;
   -webkit-box-shadow: 4px 4px 10px 0 #d1d9e6, -4px -4px 10px 0 #fff;
           box-shadow: 4px 4px 10px 0 #d1d9e6, -4px -4px 10px 0 #fff;
-  background-color: #ecf0f3;
+  background-color: #eff4fd;
   /* width */
   /* Track */
   /* Handle */
@@ -421,7 +421,6 @@ header .leftarea .notification span {
 
 .schedule .title {
   background: #2aa265;
-  background: radial-gradient(circle, #2aa265 0%, #0e7741 100%);
   padding: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -462,12 +461,13 @@ header .leftarea .notification span {
 .schedule .table td, .schedule .table th {
   text-align: center;
   width: 5%;
+  padding: 18px;
 }
 
 .schedule .table th {
-  color: #fff;
-  background-color: #39539e;
-  border-color: #4966bb;
+  color: #ffffff;
+  background-color: #3f51b5;
+  border-color: #5365ca;
 }
 
 .schedule .table .days {
@@ -515,6 +515,280 @@ header .leftarea .notification span {
   }
 }
 
+.appsPrograms .programs .title {
+  background: #23369D;
+  padding: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fff;
+  /* -webkit-box-orient: vertical; */
+  /* -webkit-box-direction: normal; */
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  /* margin-left: 40px; */
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 10px 10px 0;
+  width: 180px;
+}
+
+.appsPrograms .programs .title span {
+  z-index: 99999;
+}
+
+.appsPrograms .programs .title img {
+  margin-bottom: 10px;
+  height: 50px;
+  z-index: 10;
+}
+
+.appsPrograms .programs #progslider .carousel-control-next, .appsPrograms .programs #progslider .carousel-control-prev {
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  top: 70%;
+  background: #eaeaea;
+  opacity: 1;
+}
+
+.appsPrograms .programs #progslider .carousel-control-prev {
+  left: 10px;
+}
+
+.appsPrograms .programs #progslider .carousel-control-next {
+  right: auto;
+  left: 50px;
+}
+
+.appsPrograms .apps .title {
+  background: #ff7a4e;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fff;
+  /* -webkit-box-orient: vertical; */
+  /* -webkit-box-direction: normal; */
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  /* margin-left: 40px; */
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 10px 10px 0;
+  width: 150px;
+  text-align: center;
+}
+
+.appsPrograms .apps .title span {
+  z-index: 99999;
+}
+
+.appsPrograms .apps .title img {
+  margin-bottom: 10px;
+  height: 50px;
+  z-index: 10;
+}
+
+.appsPrograms #appsslider .carousel-inner .slider__content {
+  text-align: right;
+}
+
+.appsPrograms #appsslider .carousel-inner .slider__content .apptitle {
+  font-weight: 600;
+  margin-right: 10px;
+  color: #39539e;
+}
+
+.appsPrograms #appsslider .carousel-inner .slider__content img {
+  width: 150px;
+  margin: 10px;
+}
+
+.appsPrograms #appsslider .carousel-control-next, .appsPrograms #appsslider .carousel-control-prev {
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  top: 70%;
+  background: #ffe5dc;
+  opacity: 1;
+}
+
+.appsPrograms #appsslider .carousel-control-prev {
+  left: 10px;
+}
+
+.appsPrograms #appsslider .carousel-control-next {
+  right: auto;
+  left: 50px;
+}
+
+.programs .title::before {
+  content: '';
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  border-radius: 7.5px;
+  background-color: #ADEFFF;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  z-index: 9;
+  right: -31px;
+  top: -22px;
+  -webkit-animation: programs 10s linear infinite;
+}
+
+.programs .title::after {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 7.5px;
+  background-color: #ADEFFF;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  z-index: 9;
+  left: 10px;
+  bottom: 10px;
+  -webkit-animation: programsafter 8s linear infinite;
+}
+
+@-webkit-keyframes programs {
+  0%, 100% {
+    right: -31px;
+    top: -22px;
+  }
+  50% {
+    right: 90%;
+    top: 70%;
+  }
+}
+
+@keyframes programs {
+  0%, 100% {
+    right: -31px;
+    top: -22px;
+  }
+  50% {
+    right: 90%;
+    top: 70%;
+  }
+}
+
+@-webkit-keyframes programsafter {
+  0%, 100% {
+    left: 10px;
+    bottom: 10px;
+  }
+  50% {
+    left: 70%;
+    bottom: 90%;
+  }
+}
+
+@keyframes programsafter {
+  0%, 100% {
+    left: 10px;
+    bottom: 10px;
+  }
+  50% {
+    left: 70%;
+    bottom: 90%;
+  }
+}
+
+.apps .title::after {
+  content: '';
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  border-radius: 7.5px;
+  background-color: #FED201;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  z-index: 9;
+  left: -31px;
+  bottom: -22px;
+  -webkit-animation: apps  8s linear infinite;
+}
+
+.apps .title::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 7.5px;
+  background-color: #FED201;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  z-index: 9;
+  right: 10px;
+  top: 10px;
+  -webkit-animation: appsafter 10s linear infinite;
+}
+
+@-webkit-keyframes apps {
+  0%, 100% {
+    bottom: -22px;
+  }
+  50% {
+    bottom: 70%;
+  }
+}
+
+@keyframes apps {
+  0%, 100% {
+    bottom: -22px;
+  }
+  50% {
+    bottom: 70%;
+  }
+}
+
+@-webkit-keyframes appsafter {
+  0%, 100% {
+    top: 10px;
+  }
+  50% {
+    top: 90%;
+  }
+}
+
+@keyframes appsafter {
+  0%, 100% {
+    top: 10px;
+  }
+  50% {
+    top: 90%;
+  }
+}
+
 body {
   background: url(../images/bg.svg) no-repeat top right #EFF4FD;
   direction: rtl;
@@ -549,8 +823,8 @@ i {
 }
 
 .shadow-sm {
-  -webkit-box-shadow: 4px 4px 10px 0 #e6ebf3, -4px -4px 10px 0 #fff;
-          box-shadow: 4px 4px 10px 0 #e6ebf3, -4px -4px 10px 0 #fff;
+  -webkit-box-shadow: 4px 4px 10px 0 #e0e4ea, -4px -4px 10px 0 #fff0;
+          box-shadow: 4px 4px 10px 0 #e0e4ea, -4px -4px 10px 0 #fff0;
 }
 
 .customrounded {
@@ -722,7 +996,7 @@ i {
 
 @-webkit-keyframes MoveUpDown5 {
   0%, 100% {
-    top: 60%;
+    top: 80%;
   }
   50% {
     top: 50%;
@@ -731,7 +1005,7 @@ i {
 
 @keyframes MoveUpDown5 {
   0%, 100% {
-    top: 60%;
+    top: 80%;
   }
   50% {
     top: 50%;

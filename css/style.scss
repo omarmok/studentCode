@@ -70,6 +70,7 @@
   @import "_advertisementboard.scss";
   @import "_Systems.scss";
   @import "_schedule.scss";
+  @import "_appsPrograms.scss";
 
 
 
@@ -112,7 +113,7 @@ a {
 
 
 .shadow-sm {
-    box-shadow: 4px 4px 10px 0 #e6ebf3, -4px -4px 10px 0 #fff;
+    box-shadow: 4px 4px 10px 0 #e0e4ea, -4px -4px 10px 0 #fff0;
 }
 
 .customrounded{
@@ -263,7 +264,7 @@ a {
 
 @keyframes MoveUpDown5 {
     0%, 100% {
-        top: 60%;
+        top: 80%;
        
     }
 

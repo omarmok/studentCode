@@ -1,7 +1,7 @@
 .schedule{
     .title{
         background: #2aa265;
-        background: radial-gradient(circle, #2aa265 0%, #0e7741 100%);
+        // background: radial-gradient(circle, #2aa265 0%, #0e7741 100%);
         padding: 15px;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -41,12 +41,13 @@
     .table td, .table th{
         text-align: center;
         width: 5%;
+        padding: 18px;
     }
     .table{
         th{
-            color:#fff;
-            background-color: #39539e;
-            border-color: #4966bb;
+            color: #ffffff;
+            background-color: #3f51b5;
+            border-color: #5365ca;
         }
         .days{
             background-color: #fffdfd;
