@@ -1,7 +1,7 @@
 .Systemsrograms{
     padding: 0;
     flex-direction: column;
-    box-shadow: 4px 4px 10px 0 #d1d9e6, -4px -4px 10px 0 #fff;
+    box-shadow: 4px 4px 10px 0 #d1d9e6, -4px -4px 10px 0 #eef3fd;
     background-color: #eff4fd;
 
     .title{
@@ -43,7 +43,7 @@
     .systems__container{
         // flex-wrap: wrap;
         .system{
-            display: -webkit-box;
+    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
@@ -63,18 +63,19 @@
     box-shadow: 4px 4px 10px 0 #d1d9e6, -4px -4px 10px 0 #fff;
     border-radius: 5px;
     padding: 15px;
-    // font-weight: 600;
+    //font-weight: 600;
     text-decoration: none;
-            img{
+    font-weight: 600;
+ 
+                img{
                 margin-bottom: 10px;
             }
             &:hover{
-                box-shadow: inset 8px 8px 8px #eb6f46, inset -8px -8px 8px #ff7a4e;
-                background: #ff7a4e;
+                box-shadow: inset 4px 4px 13px 0 #d1d9e6, inset -4px -4px 13px 0 #fff;
               
-                color:#fff;
+                // color:#fff;
                 img{
-                    filter: brightness(0) invert(1);
+                    // filter: brightness(0) invert(1);
                 }
             }
         }
