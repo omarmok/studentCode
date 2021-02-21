@@ -566,7 +566,7 @@ header .leftarea .notification span {
   }
 }
 
-.appsPrograms .programs .title {
+.programs .title {
   background: #23369D;
   padding: 25px;
   display: -webkit-box;
@@ -591,40 +591,31 @@ header .leftarea .notification span {
   width: 180px;
 }
 
-.appsPrograms .programs .title span {
+.programs .title span {
   z-index: 99999;
 }
 
-.appsPrograms .programs .title img {
+.programs .title img {
   margin-bottom: 10px;
   height: 50px;
   z-index: 10;
 }
 
-.appsPrograms .programs #progslider .carousel-inner {
-  margin-top: 40px;
+.programs .progsliderContainer button.slick-next, .programs .progsliderContainer button.slick-next:hover {
+  top: 4%;
 }
 
-.appsPrograms .programs #progslider .carousel-inner img {
-  height: 50px;
+.programs .progsliderContainer button.slick-prev, .programs .progsliderContainer button.slick-prev:hover {
+  top: 4%;
 }
 
-.appsPrograms .programs #progslider .carousel-control-next, .appsPrograms .programs #progslider .carousel-control-prev {
-  width: 30px;
-  height: 30px;
-  border-radius: 4px;
-  top: 10%;
-  background: #eaeaea;
-  opacity: 1;
+.programs .progsliderContainer .slick-slide {
+  margin-top: 15px;
+  padding: 0;
 }
 
-.appsPrograms .programs #progslider .carousel-control-prev {
-  left: 10px;
-}
-
-.appsPrograms .programs #progslider .carousel-control-next {
-  right: auto;
-  left: 50px;
+.programs .progsliderContainer .slick-slide img {
+  height: 80px;
 }
 
 .programs .title::before {
@@ -745,7 +736,6 @@ header .leftarea .notification span {
   -ms-flex-pack: center;
   justify-content: center;
   text-align: center;
-  margin-left: 10px;
 }
 
 .events .content span {

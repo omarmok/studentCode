@@ -1,4 +1,4 @@
-.appsPrograms{
+
     .programs{
         .title{
             background: #23369D;
@@ -34,38 +34,25 @@
               }
         }
 
-        #progslider{
-            .carousel-inner{
-                margin-top: 40px;
-                // padding: 15px;
-
-                img{
-                    height: 50px;
-             
-                }
+        .progsliderContainer{
+            button.slick-next, button.slick-next:hover{
+                top: 4%;
             }
-         
-            .carousel-control-next, .carousel-control-prev{
-                width: 30px;
-                height: 30px;
-                border-radius: 4px;
-              
-                top: 10%;
-                background: #eaeaea;
-                opacity: 1;
+            button.slick-prev, button.slick-prev:hover{
+                top: 4%;
             }
-            .carousel-control-prev {
-                left: 10px;
+            .slick-slide{
+                margin-top: 15px;
+                padding: 0;
             }
-            .carousel-control-next {
-                right: auto;
-                left: 50px;
+            .slick-slide img{
+                height: 80px;
             }
         }
+
     }
 
 
-}
 
 
 

@@ -14,8 +14,23 @@ jQuery(document).ready(function () {
 
 
 
+$('.progslider').slick({
+    dots: false,
+    infinite: true,
+    // vertical: true,
+    speed: 500,
+    slidesToShow: 3 ,
+    slidesToScroll:1,
+    autoplay:true,
+    rtl:true,
+  
+    });
+
+
+
+
         $('.eventslider').slick({
-        dots: true,
+        dots: false,
         infinite: true,
         // vertical: true,
         speed: 500,
@@ -28,7 +43,7 @@ jQuery(document).ready(function () {
 
 
         $('.newsslider').slick({
-            dots: true,
+            dots: false,
             infinite: true,
             // vertical: true,
             speed: 500,
@@ -39,6 +54,8 @@ jQuery(document).ready(function () {
           
             });
 
+
+    
 
 
 
