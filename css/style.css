@@ -215,22 +215,65 @@ header .leftarea .notification span {
   color: #ef5727;
 }
 
-.buttons .green__btn {
+.userarea .buttons .green__btn {
   font-size: 1vw;
 }
 
-.buttons .green__btn img {
+.userarea .buttons .green__btn img {
   height: 15px;
   margin-left: 5px;
 }
 
-.buttons .red__btn, .buttons .green__btn {
+.userarea .buttons .red__btn, .userarea .buttons .green__btn {
   font-size: 1vw;
 }
 
-.buttons .red__btn img, .buttons .green__btn img {
+.userarea .buttons .red__btn img, .userarea .buttons .green__btn img {
   height: 15px;
   margin-left: 5px;
+}
+
+.stratchedRow .modal .modal-header {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  padding: 5px 18px 5px 5px;
+}
+
+.stratchedRow .modal .modal-header h5 {
+  font-size: 16px;
+}
+
+.stratchedRow .modal .modal-header .close {
+  margin: auto 0;
+}
+
+.stratchedRow .modal .modal-body {
+  text-align: right;
+}
+
+#personalmodal .modal-header {
+  background-color: #96ce06;
+}
+
+#personalmodal .btn-secondary {
+  color: #fff;
+  background-color: #96ce06;
+  border-color: #96ce06;
+}
+
+#studymodal .modal-header {
+  background-color: #ef5727;
+}
+
+#studymodal .btn-secondary {
+  color: #fff;
+  background-color: #ef5727;
+  border-color: #ef5727;
 }
 
 .advertisementboard {
@@ -269,14 +312,54 @@ header .leftarea .notification span {
 }
 
 .advertisementboard .greenboardslider {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
 }
 
-.advertisementboard .greenboardslider img {
-  height: 100%;
+.advertisementboard .greenboardslider .ab {
   width: 100%;
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 9;
+  top: 0;
+}
+
+.advertisementboard .greenboardslider #greenboardslider {
+  position: relative;
+  z-index: 12;
+  padding: 25px;
+}
+
+.advertisementboard .greenboardslider #greenboardslider p {
+  text-align: justify;
+  color: #fff;
+  font-size: 12px;
+}
+
+.advertisementboard .greenboardslider #greenboardslider .ca__btn {
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #114224;
+}
+
+.advertisementboard .greenboardslider #greenboardslider .ca__btn:hover {
+  color: #fff;
+  background: #3f9c64;
+}
+
+.advertisementboard .greenboardslider #greenboardslider .carousel-indicators li {
+  height: 10px;
 }
 
 .Systemsrograms {
@@ -323,9 +406,9 @@ header .leftarea .notification span {
 }
 
 .Systemsrograms .systems {
-  height: 360px;
-  min-height: 360px;
-  max-height: 360px;
+  height: 250px;
+  min-height: 250px;
+  max-height: 250px;
   overflow-y: scroll;
   margin: 15px;
 }

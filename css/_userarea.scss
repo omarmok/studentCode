@@ -86,7 +86,7 @@
     color: #ef5727;
 }
 
-}
+
 
 .buttons{
     .green__btn{  
@@ -103,5 +103,58 @@
             height: 15px;
     margin-left: 5px;
         }
+    }
+}
+
+
+
+}
+
+.stratchedRow{
+    .modal{
+        .modal-header{
+            justify-content: space-between;
+            align-items: center;
+            color:#fff;
+            padding: 5px 18px 5px 5px;
+            h5{
+                font-size: 16px;
+            }
+            .close{
+                margin: auto 0;
+            }
+        }
+        .modal-body{
+            text-align: right;
+        }
+        
+    }
+}
+
+#personalmodal{
+    .modal-header{
+        background-color:#96ce06 ;
+    } 
+
+    .btn-secondary {
+        color: #fff;
+        background-color: #96ce06;
+        border-color: #96ce06;
+    }
+}
+
+
+
+
+
+#studymodal{
+    .modal-header{
+        background-color: #ef5727;
+    } 
+
+    .btn-secondary {
+        color: #fff;
+        background-color: #ef5727;
+        border-color: #ef5727;
     }
 }
