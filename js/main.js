@@ -27,6 +27,18 @@ jQuery(document).ready(function () {
         });
 
 
+        $('.newsslider').slick({
+            dots: true,
+            infinite: true,
+            // vertical: true,
+            speed: 500,
+            slidesToShow: 1 ,
+            slidesToScroll:1,
+            autoplay:true,
+            rtl:true,
+          
+            });
+
 
 
 

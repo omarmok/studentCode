@@ -734,7 +734,7 @@ header .leftarea .notification span {
 
 .apps .title {
   background: #ff794e;
-  padding: 5px 20px 0 0;
+  padding: 20px 12px 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -749,11 +749,11 @@ header .leftarea .notification span {
   -webkit-box-direction: normal;
   flex-direction: column;
   /* margin-left: 40px; */
-  font-size: 11px;
+  font-size: 14px;
   font-weight: bold;
   position: relative;
   overflow: hidden;
-  border-radius: 20px 220px 240px 10px;
+  border-radius: 0 10px 10px 0;
   width: 190px;
   text-align: center;
 }
@@ -797,40 +797,23 @@ header .leftarea .notification span {
 }
 
 #appsslider .carousel-control-next, #appsslider .carousel-control-prev {
-  width: 16px;
+  width: 30px;
   height: 30px;
   border-radius: 4px;
-  top: 34%;
-  /* background: #ffffff; */
+  top: 50%;
+  background: #fdd300;
   opacity: 1;
   z-index: 9999;
+  border-radius: 50%;
 }
 
 #appsslider .carousel-control-prev {
-  left: -51px;
+  right: -71px;
+  left: auto;
 }
 
 #appsslider .carousel-control-next {
-  right: auto;
-  left: -30px;
-}
-
-.apps .title::after {
-  content: '';
-  display: inline-block;
-  width: 90px;
-  height: 90px;
-  border-radius: 7.5px;
-  background: #fdd200;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  position: absolute;
-  z-index: 9;
-  left: -31px;
-  bottom: -22px;
-  -webkit-animation: apps  8s linear infinite;
+  right: -110px;
 }
 
 @-webkit-keyframes apps {
@@ -867,6 +850,39 @@ header .leftarea .notification span {
   50% {
     top: 90%;
   }
+}
+
+.news {
+  text-align: right;
+  padding: 15px;
+}
+
+.news h3 {
+  color: #030303;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.news .slick-slide {
+  padding: 0;
+}
+
+.news .newsslider .newsItem .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.news .newsslider .newsItem .content a {
+  font-size: 13px;
+  color: #000;
+  text-decoration: underline !important;
+  line-height: 1.9;
+}
+
+.news .newsslider .newsItem .content img {
+  height: 73px;
+  width: 105px;
 }
 
 body {

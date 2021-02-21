@@ -135,25 +135,23 @@
     width: 47px;
     height: 75px;
      background-size: 95px;
-    top: -9%;
- 
-  
-    background: #7dc242;
+     top: -20%;
+     border-radius: 5px;
     height: 20px;
     width: 20px;
-    left: 45px;
-
+    left: 25px;
+    background: #e9eef4;
      
   }
   button.slick-prev, button.slick-prev:hover {
    
     position: absolute;
-    top: -9%;
-    left: 15px;
+    top: -20%;
+    left: 0;
     z-index: 1;
-   
+    background: #e9eef4;
       background-position-x: right;
-      background: #7dc242;
+        border-radius: 5px;
       height: 20px;
       width: 20px;
     

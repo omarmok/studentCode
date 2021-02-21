@@ -1,591 +1,380 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/font-awesome.min.css">
-    <link rel="stylesheet" href="./css/animate.min.css">
-    <link rel="stylesheet" href="./css/slick.css">
-    <link rel="stylesheet" href="./css/all.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>  البوابه الداخلية للطلاب</title>
+	<meta charset="UTF-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<link href="./css/bootstrap.min.css" rel="stylesheet">
+	<link href="./css/font-awesome.min.css" rel="stylesheet">
+	<link href="./css/animate.min.css" rel="stylesheet">
+	<link href="./css/slick.css" rel="stylesheet">
+	<link href="./css/all.css" rel="stylesheet">
+	<link href="./css/style.css" rel="stylesheet">
+	<title>البوابه الداخلية للطلاب</title>
 </head>
 <body>
-
-    <div class="bg">
-    <div class="bubbles">
-        <div id="Ellipse_3"></div>
-        <div id="Ellipse_5"></div>
-        <div id="Ellipse_6"></div>
-    </div>
-    </div>
-    <div class="orangecircle">
-        <img src="./images/orangecircle.svg" >
-    </div>
-    <div class="greencircle ">
-        <img src="./images/greencircle.svg" >
-    </div>
-
-<header >
-    <div class="container-fluid">
-        <div class="row align-items-center ">
-            <div class="col-12  offset-4  col-lg-4">
-                <div class="d-flex align-items-center  rightarea">
-                    <a href="/" title="الشعار"> 
-                    <img src="./images/logo.svg" alt="" srcset="">
-                    </a>
-
-                 <span></span>
-
-                    <div class="page__title">
-                        البوابه الداخلية للطلاب
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-12 col-lg-4  ">
-                <div class="leftarea">
-                  <div class="date">
-                    <img src="./images/calendar.svg" alt="" srcset="">
-                    <div id="topnav_Date"></div>
-                  </div>
-                  <div class="clock">
-                    <img src="./images/clock.svg" alt="" srcset="">
-                    08.20 pm
-                  </div>
-                  <div class="weather">
-                    <img src="./images/cloudy.svg" alt="" srcset="">
-                    38
-                  </div>
-                  <div class="notification">
-                    <img src="./images/notification.svg" alt="" srcset="">
-                    <span></span>
-                  </div>
-                  <a class="logout" href="" title="تسجيل الخروج">
-                      
-                <img src="./images/log-out.svg" alt="" srcset="">
-                </a>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</header>
-
-<!-- topcontainer     -->
-            <div class="container-fluid mt-4 p-0">
-            <div class="row stratchedRow">
-
-                <!-- start user area -->
-            <div class=" col-4  col-lg-3 mb-3">
-                <div class="bg-white customrounded shadow-sm  userarea">
-                    <div class="round-wrap">
-                       <div class="roundtwo">
-                        <div class="round-animation">
-                            <img alt="" src="./images/user.jpg"></div>
-                       </div>
-                    </div>
-
-                    <div class="username">احمد محمد علي احمد</div>
-                    <div class="usercollage">
-                        كلية الحساب الالي
-
-                    </div>
-              <div class="d-flex mt-3 buttons">
-                <button class="btn green__btn ml-1" data-toggle="modal" data-target="#personalmodal"> 
-                    <img alt="" src="./images/information.svg">
-                     الشخصية</button>
-                <button class="btn red__btn" data-toggle="modal" data-target="#studymodal"> 
-                    <img alt="" src="./images/information.svg">
-                     الدراسية</button>
-              </div>
-
-
-                </div>
-            </div>
-
-
-            <!-- personalmodal -->
-<div class="modal fade" id="personalmodal" tabindex="-1" role="dialog" aria-labelledby="personalmodalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="personalmodalLabel">    معلوماتي الشخصية
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-            معلوماتي الشخصية
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">إغلاق</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-
-            <!-- studymodal -->
-<div class="modal fade" id="studymodal" tabindex="-1" role="dialog" aria-labelledby="studymodalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="studymodalLabel">  معلوماتي الدراسية
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body"> 
-            معلوماتي الدراسية
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">إغلاق</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-      <!-- end user area -->
-
-    <!-- start advertisementboard -->
-            <div class=" col-8 col-lg-5  mb-3">
-                <div class="bg-white customrounded shadow-sm  advertisementboard">
-                  <div class="advimage ">
-                    <img alt="" src="./images/larg_notification_image.svg">
-                  <span class=" mr-3">  لوحة الإعلانات</span>
-                  </div>
-
-                  <div class="greenboardslider">
-                    <img alt="" src="./images/greenboard.svg">
-                  </div>
-
-
-                </div>
-            </div>
-  <!-- end advertisementboard -->
-  <!-- start Systemsrograms -->
-            <div class="col-12 col-lg-4 mb-3">
-                <div class="customrounded  d-flex Systemsrograms">
-                   
-                    <div class="title">
-
-                        <img src="./images/Outline.svg">
-                    <span>    الانظمة</span>
-                    </div>
-                    <div class="systems">
-                        <div class=" systems__container">
-                       
-                                <a href="" title="النظام الاكاديمي" class="system">
-                                <img src="./images/graduated.svg">
-                                <span>النظام الاكاديمي</span>
-                            </a>
-                         
-
-                     
-                            <a href="" title="النظام الاكاديمي" class="system">
-                                <img src="./images/bus.svg">
-                                <span>النقل الجامعي</span>
-                            </a>
-                       
-               
-
-                   
-                            <a href="" title="النظام الاكاديمي" class="system">
-                                <img src="./images/email.svg">
-                                <span>البريد الإلكتروني</span>
-                            </a>
-                       
-               
-                      
-                            <a href="" title="النظام الاكاديمي" class="system">
-                                <img src="./images/blackboard.svg">
-                                <span>بلاك بورد   </span>
-                            </a>
-                       
-               
-                        
-                            <a href="" title="النظام الاكاديمي" class="system">
-                                <img src="./images/meeting.svg">
-                                <span>اللجان والمجالس</span>
-                            </a>
-                     
-                            <a href="" title="النظام الاكاديمي" class="system">
-                                <img src="./images/online-learning.svg">
-                                <span>المكتبة الرقمية</span>
-                            </a>
-                   
-               
-                       
-
-                         
-                            <a href="" title="النظام الاكاديمي" class="system">
-                                <img src="./images/exam.svg">
-                                <span>حجز الاختبارات</span>
-                            </a>
-                     
-               
-
-                        
-               
-
-
-                        </div>
-
-
-
-                  
-
-                      
-
-                      
-                      
-                      
-               
-
-                    </div>
-
-                </div>
-            </div>
-  <!-- end Systemsrograms -->
-            </div>
-            </div>
-
-
-<!-- Schedule     -->
-            <div class="container-fluid mt-4 p-0">
-                <div class="row">
-
-            <div class="col">
-                <div class="bg-white customrounded shadow-sm mb-3  schedule">
-                    <div class="title">
-
-                        <img src="./images/timetable.svg">
-                    <span>    الجدول الدراسي</span>
-                    </div>
-
-
-
-                    <div class="table-responsive p-4">
-                    
-                        <table class="table table-bordered ">
-                            <thead class="thead-dark">
-                              <tr>
-                                <td class="empety" scope="col" ></td>
-                                <th scope="col">9:00</th>
-                                <th scope="col">10:00</th>
-                                <th scope="col">11:00</th>
-                                <th scope="col">12:00</th>
-                                <th scope="col">1:00</th>
-                                <th scope="col">2:00</th>
-                                <th scope="col">3:00</th>
-                                <th scope="col">4:00</th>
-                                <th scope="col">5:00</th>
-                           
-                            
-
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <td class="days">الأحد</th>
-                                <td class="lesson">تصميم وتحليل</td>
-                                <td class="lesson">تصميم وتحليل</td>
-                                <td></td>
-                                <td></td>
-                                <td class="lesson">تصميم وتحليل</td>
-                                <td></td>
-                                <td></td>
-                                <td class="lesson">تصميم وتحليل</td>
-                                <td></td>
-                              </tr>
-
-
-                              <tr>
-                                <td class="days">الأثنين</th>
-                                <td></td>
-                                <td></td>
-                                <td class="lesson">تصميم وتحليل</td>
-                                <td > </td>
-                                <td class="lesson">تصميم وتحليل</td>
-                                <td></td>
-                                <td class="lesson">تصميم وتحليل</td>
-                                <td></td>
-                                <td></td>
-                           
-                              
-                              </tr>
-
-
-
-                              <tr>
-                                <td class="days">الثلاثاء</th>
-                                <td></td>
-                                <td class="lesson" >تصميم وتحليل</td>
-                                <td class="lesson">تصميم وتحليل</td>
-                                <td></td>
-                                <td></td>
-                                <td class="lesson">تصميم وتحليل</td>
-                                <td></td>
-                                <td></td>
-                                <td class="lesson">تصميم وتحليل</td>
-                              
-                              </tr>
-
-
-
-                              <tr>
-                                <td class="days">الأربعاء</th>
-                                <td></td>
-                                <td > </td>
-                                <td></td>
-                                <td class="lesson">تصميم وتحليل</td>
-                                <td></td>
-                                <td></td>
-                                <td class="lesson">تصميم وتحليل</td>
-                                <td></td>
-                             
-                              
-                              </tr>
-
-
-
-                              <tr>
-                                <td class="days">الخميس</th>
-                                    <td class="lesson">تصميم وتحليل</td>
-                                <td></td>
-                                <td></td>
-                                <td class="lesson">تصميم وتحليل</td>
-                                <td></td>   <td></td>
-                                <td></td>
-                                <td class="lesson">تصميم وتحليل</td>
-                                <td class="lesson">تصميم وتحليل</td>
-                              </tr>
-
-                            </tbody>
-                          </table>
-                      </div>
-
-                </div>
-            </div>
-
-                    </div>
-                    </div>
-
-
-
-<!-- newsevents     -->
-<div class="container-fluid mt-4 p-0">
-    <div class="row">
-    <div class="col-12 col-lg-4">
-        <div class=" appsPrograms">
-            
-            <div class="bg-white  customrounded shadow-sm d-flex programs">
-                
-                <div class="title">
-
-                    <img src="./images/folder.svg">
-                <span>    البرامج</span>
-                </div>
-
-              
-                    <div id="progslider" class="carousel slide w-100" data-ride="carousel">
-                        <div class="carousel-inner ">
-                         
-                          <div class="carousel-item active">
-                            <div class="d-flex align-items-center    justify-content-between p-2">
-
-                                <a href="http://" target="_blank" rel="noopener noreferrer"> <img class="d-block " src="./images/office-365.png" alt="First slide">
-                                </a>
-                                <a href="http://" target="_blank" rel="noopener noreferrer"> <img class="d-block " src="./images/Image 1.png" alt="First slide">
-                                </a>
-                                <a href="http://" target="_blank" rel="noopener noreferrer"> <img class="d-block " src="./images/Image 2.png" alt="First slide">
-                                </a>
-
-                               </div>
-                         
-                          </div>
-                          <div class="carousel-item">
-                            <div class="d-flex align-items-center    justify-content-between p-2">
-                                <a href="http://" target="_blank" rel="noopener noreferrer"> <img class="d-block " src="./images/office-365.png" alt="First slide">
-                                </a>
-                                <a href="http://" target="_blank" rel="noopener noreferrer"> <img class="d-block " src="./images/Image 1.png" alt="First slide">
-                                </a>
-                                <a href="http://" target="_blank" rel="noopener noreferrer"> <img class="d-block " src="./images/Image 2.png" alt="First slide">
-                                </a>
-                               </div>
-                          </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#progslider" role="button" data-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#progslider" role="button" data-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Next</span>
-                        </a>
-                      </div>
-
-           
-
-            </div>
-
-        
-
-
-        </div>
-    </div>
-
-
-
-
-
-    <div class="col-12 col-lg-4">
-        <div class="bg-white customrounded shadow-sm  events">
-      <h3>أحداث وفعاليات</h3>
-    <div class="eventslider">
-      <div class="event">
-     <div class="content">
-      <div class="date">
-        10
-        رجب
-      </div>
-
-      <span></span>
-      <div class="description">
-        نهاية استقبال طلبات التحويل الداخلي والخارجي إلى جامعة المجمعة للفصل الدراسي
-      </div>
-     </div>
-      </div>
-
-      <div class="event">
-        <div class="content">
-         <div class="date">
-           10
-           رجب
-         </div>
-         <span></span>
-         <div class="description">
-           نهاية استقبال طلبات التحويل الداخلي والخارجي إلى جامعة المجمعة للفصل الدراسي
-         </div>
-        </div>
-         </div>
-
-
-    </div>
-
-
-        </div>
-    </div>
-
-
-    <div class="col-12 col-lg-4">
-        <div class="bg-white customrounded shadow-sm  advertisin">
-            news    
-        </div>
-    </div>
-
-    </div>
-    </div>
-<div class="container-fluid mt4 p-0">
-  <div class="row">
-<div class="col">
-    <div class="bg-white  customrounded shadow-sm d-flex mt-3 apps">
-      <!-- <div class="title">
-
-          <img src="./images/mobile-app.svg">
-      <span>    تطبيقات الجامعة</span>
-      </div> -->
-
-      <div id="appsslider" class="carousel slide w-100 p-2" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-          <div class="appslideritemcontainer">
-            <div class="slider__content">
-              <div class="apptitle">تطبيق خدماتي</div>
-               <div class="d-flex">
-                   <a href="http://" target="_blank" rel="noopener noreferrer"> 
-                       <img class="" src="./images/apple.png" alt="First slide" >
-                   </a>
-                   <a href="http://" target="_blank" rel="noopener noreferrer"> 
-                       <img class="" src="./images/google.png" alt="First slide" >
-                   </a>
-               </div>
-           </div>
-
-
-           <div class="slider__content">
-             <div class="apptitle">تطبيق خدماتي</div>
-              <div class="d-flex">
-                  <a href="http://" target="_blank" rel="noopener noreferrer"> 
-                      <img class="" src="./images/apple.png" alt="First slide" >
-                  </a>
-                  <a href="http://" target="_blank" rel="noopener noreferrer"> 
-                      <img class="" src="./images/google.png" alt="First slide" >
-                  </a>
-              </div>
-          </div>
-
-
-          <div class="slider__content">
-           <div class="apptitle">تطبيق خدماتي</div>
-            <div class="d-flex">
-                <a href="http://" target="_blank" rel="noopener noreferrer"> 
-                    <img class="" src="./images/apple.png" alt="First slide" >
-                </a>
-                <a href="http://" target="_blank" rel="noopener noreferrer"> 
-                    <img class="" src="./images/google.png" alt="First slide" >
-                </a>
-            </div>
-        </div>
-          </div>
-            </div>
-
-
-            <div class="carousel-item ">
-              <div class="appslideritemcontainer">
-              <div class="slider__content">
-                 <div class="apptitle">تطبيق خدماتي</div>
-                  <div class="d-flex">
-                      <a href="http://" target="_blank" rel="noopener noreferrer"> 
-                          <img class="" src="./images/apple.png" alt="First slide">
-                      </a>
-                      <a href="http://" target="_blank" rel="noopener noreferrer"> 
-                          <img class="" src="./images/google.png" alt="First slide" >
-                      </a>
-                  </div>
-              </div>      </div>
-            </div>
-             </div>
-        
-          <a class="carousel-control-prev" href="#appsslider" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#appsslider" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-
-        <div class="title">
-
-          <img src="./images/mobile-app.svg">
-      <span>    تطبيقات الجامعة</span>
-      </div>
-  </div>
-</div>
-  </div>
-</div>
-
-    <!-- twitter     -->
-    <!-- <div class="container-fluid mt-4 p-0">
+	<div class="bg">
+		<div class="bubbles">
+			<div id="Ellipse_3"></div>
+			<div id="Ellipse_5"></div>
+			<div id="Ellipse_6"></div>
+		</div>
+	</div>
+	<div class="orangecircle"><img src="./images/orangecircle.svg"></div>
+	<div class="greencircle"><img src="./images/greencircle.svg"></div>
+	<header>
+		<div class="container-fluid">
+			<div class="row align-items-center">
+				<div class="col-12 offset-4 col-lg-4">
+					<div class="d-flex align-items-center rightarea">
+						<a href="/" title="الشعار"><img alt="" src="./images/logo.svg" srcset=""></a> <span></span>
+						<div class="page__title">
+							البوابه الداخلية للطلاب
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-4">
+					<div class="leftarea">
+						<div class="date">
+							<img alt="" src="./images/calendar.svg" srcset="">
+							<div id="topnav_Date"></div>
+						</div>
+						<div class="clock">
+							<img alt="" src="./images/clock.svg" srcset=""> 08.20 pm
+						</div>
+						<div class="weather">
+							<img alt="" src="./images/cloudy.svg" srcset=""> 38
+						</div>
+						<div class="notification">
+							<img alt="" src="./images/notification.svg" srcset=""> <span></span>
+						</div><a class="logout" href="" title="تسجيل الخروج"><img alt="" src="./images/log-out.svg" srcset=""></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header><!-- topcontainer     -->
+	<div class="container-fluid mt-4 p-0">
+		<div class="row stratchedRow">
+			<!-- start user area -->
+			<div class=" col-4 col-lg-3 mb-3">
+				<div class="bg-white customrounded shadow-sm userarea">
+					<div class="round-wrap">
+						<div class="roundtwo">
+							<div class="round-animation"><img alt="" src="./images/user.jpg"></div>
+						</div>
+					</div>
+					<div class="username">
+						احمد محمد علي احمد
+					</div>
+					<div class="usercollage">
+						كلية الحساب الالي
+					</div>
+					<div class="d-flex mt-3 buttons">
+						<button class="btn green__btn ml-1" data-target="#personalmodal" data-toggle="modal"><img alt="" src="./images/information.svg"> الشخصية</button> <button class="btn red__btn" data-target="#studymodal" data-toggle="modal"><img alt="" src="./images/information.svg"> الدراسية</button>
+					</div>
+				</div>
+			</div><!-- personalmodal -->
+			<div aria-hidden="true" aria-labelledby="personalmodalLabel" class="modal fade" id="personalmodal" role="dialog" tabindex="-1">
+				<div class="modal-dialog modal-lg" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="personalmodalLabel">معلوماتي الشخصية <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button> </h5>
+							<div class="modal-body">
+								<h5 class="modal-title" id="personalmodalLabel">معلوماتي الشخصية </h5>
+								<div class="modal-footer">
+									<h5 class="modal-title" id="personalmodalLabel"><button class="btn btn-secondary" data-dismiss="modal" type="button">إغلاق</button> <!-- studymodal --></h5>
+									<div aria-hidden="true" aria-labelledby="studymodalLabel" class="modal fade" id="studymodal" role="dialog" tabindex="-1">
+										<h5 class="modal-title" id="personalmodalLabel"></h5>
+										<div class="modal-dialog modal-lg" role="document">
+											<h5 class="modal-title" id="personalmodalLabel"></h5>
+											<div class="modal-content">
+												<h5 class="modal-title" id="personalmodalLabel"></h5>
+												<div class="modal-header">
+													<h5 class="modal-title" id="personalmodalLabel"></h5>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>معلوماتي الدراسية <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button>
+						</div>
+						<div class="modal-body">
+							معلوماتي الدراسية
+						</div>
+						<div class="modal-footer">
+							<button class="btn btn-secondary" data-dismiss="modal" type="button">إغلاق</button>
+						</div>
+					</div>
+				</div>
+			</div><!-- end user area -->
+			<!-- start advertisementboard -->
+			<div class=" col-8 col-lg-5 mb-3">
+				<div class="bg-white customrounded shadow-sm advertisementboard">
+					<div class="advimage">
+						<img alt="" src="./images/larg_notification_image.svg"> <span class=" mr-3">لوحة الإعلانات</span>
+					</div>
+					<div class="greenboardslider"><img alt="" src="./images/greenboard.svg"></div>
+				</div>
+			</div><!-- end advertisementboard -->
+			<!-- start Systemsrograms -->
+			<div class="col-12 col-lg-4 mb-3">
+				<div class="customrounded d-flex Systemsrograms">
+					<div class="title">
+						<img src="./images/Outline.svg"> <span>الانظمة</span>
+					</div>
+					<div class="systems">
+						<div class=" systems__container">
+							<a class="system" href="" title="النظام الاكاديمي"><img src="./images/graduated.svg"> <span>النظام الاكاديمي</span></a> <a class="system" href="" title="النظام الاكاديمي"><img src="./images/bus.svg"> <span>النقل الجامعي</span></a> <a class="system" href="" title="النظام الاكاديمي"><img src="./images/email.svg"> <span>البريد الإلكتروني</span></a> <a class="system" href="" title="النظام الاكاديمي"><img src="./images/blackboard.svg"> <span>بلاك بورد</span></a> <a class="system" href="" title="النظام الاكاديمي"><img src="./images/meeting.svg"> <span>اللجان والمجالس</span></a> <a class="system" href="" title="النظام الاكاديمي"><img src="./images/online-learning.svg"> <span>المكتبة الرقمية</span></a> <a class="system" href="" title="النظام الاكاديمي"><img src="./images/exam.svg"> <span>حجز الاختبارات</span></a>
+						</div>
+					</div>
+				</div>
+			</div><!-- end Systemsrograms -->
+		</div>
+	</div><!-- Schedule     -->
+	<div class="container-fluid mt-4 p-0">
+		<div class="row">
+			<div class="col">
+				<div class="bg-white customrounded shadow-sm mb-3 schedule">
+					<div class="title">
+						<img src="./images/timetable.svg"> <span>الجدول الدراسي</span>
+					</div>
+					<div class="table-responsive p-4">
+						<table class="table table-bordered">
+							<thead class="thead-dark">
+								<tr>
+									<td class="empety" scope="col"></td>
+									<th scope="col">9:00</th>
+									<th scope="col">10:00</th>
+									<th scope="col">11:00</th>
+									<th scope="col">12:00</th>
+									<th scope="col">1:00</th>
+									<th scope="col">2:00</th>
+									<th scope="col">3:00</th>
+									<th scope="col">4:00</th>
+									<th scope="col">5:00</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="days">الأحد</td>
+									<td class="lesson">تصميم وتحليل</td>
+									<td class="lesson">تصميم وتحليل</td>
+									<td></td>
+									<td></td>
+									<td class="lesson">تصميم وتحليل</td>
+									<td></td>
+									<td></td>
+									<td class="lesson">تصميم وتحليل</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="days">الأثنين</td>
+									<td></td>
+									<td></td>
+									<td class="lesson">تصميم وتحليل</td>
+									<td></td>
+									<td class="lesson">تصميم وتحليل</td>
+									<td></td>
+									<td class="lesson">تصميم وتحليل</td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="days">الثلاثاء</td>
+									<td></td>
+									<td class="lesson">تصميم وتحليل</td>
+									<td class="lesson">تصميم وتحليل</td>
+									<td></td>
+									<td></td>
+									<td class="lesson">تصميم وتحليل</td>
+									<td></td>
+									<td></td>
+									<td class="lesson">تصميم وتحليل</td>
+								</tr>
+								<tr>
+									<td class="days">الأربعاء</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td class="lesson">تصميم وتحليل</td>
+									<td></td>
+									<td></td>
+									<td class="lesson">تصميم وتحليل</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="days">الخميس</td>
+									<td class="lesson">تصميم وتحليل</td>
+									<td></td>
+									<td></td>
+									<td class="lesson">تصميم وتحليل</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td class="lesson">تصميم وتحليل</td>
+									<td class="lesson">تصميم وتحليل</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!-- newsevents     -->
+	<div class="container-fluid mt-4 p-0">
+		<div class="row">
+			<div class="col-12 col-lg-4">
+				<div class=" appsPrograms">
+					<div class="bg-white customrounded shadow-sm d-flex programs">
+						<div class="title">
+							<img src="./images/folder.svg"> <span>البرامج</span>
+						</div>
+						<div class="carousel slide w-100" data-ride="carousel" id="progslider">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<div class="d-flex align-items-center justify-content-between p-2">
+										<a href="http://" rel="noopener noreferrer" target="_blank"><img alt="First slide" class="d-block" src="./images/office-365.png"></a> <a href="http://" rel="noopener noreferrer" target="_blank"><img alt="First slide" class="d-block" src="./images/Image%201.png"></a> <a href="http://" rel="noopener noreferrer" target="_blank"><img alt="First slide" class="d-block" src="./images/Image%202.png"></a>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class="d-flex align-items-center justify-content-between p-2">
+										<a href="http://" rel="noopener noreferrer" target="_blank"><img alt="First slide" class="d-block" src="./images/office-365.png"></a> <a href="http://" rel="noopener noreferrer" target="_blank"><img alt="First slide" class="d-block" src="./images/Image%201.png"></a> <a href="http://" rel="noopener noreferrer" target="_blank"><img alt="First slide" class="d-block" src="./images/Image%202.png"></a>
+									</div>
+								</div>
+							</div><a class="carousel-control-prev" data-slide="prev" href="#progslider" role="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" data-slide="next" href="#progslider" role="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-lg-4">
+				<div class="bg-white customrounded shadow-sm events">
+					<h3>أحداث وفعاليات</h3>
+					<div class="eventslider">
+						<div class="event">
+							<div class="content">
+								<div class="date">
+									10 رجب
+								</div><span></span>
+								<div class="description">
+									نهاية استقبال طلبات التحويل الداخلي والخارجي إلى جامعة المجمعة للفصل الدراسي
+								</div>
+							</div>
+						</div>
+						<div class="event">
+							<div class="content">
+								<div class="date">
+									10 رجب
+								</div><span></span>
+								<div class="description">
+									نهاية استقبال طلبات التحويل الداخلي والخارجي إلى جامعة المجمعة للفصل الدراسي
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-lg-4">
+				<div class="bg-white customrounded shadow-sm news">
+					<h3>اخبار جهتي</h3>
+					<div class="newsslider">
+						<div class="newsItem">
+							<div class="content">
+								<img alt="" class="ml-3" src="./images/1_0.jpeg"> <a href="">وكيل الجامعة يُكّرم المشاركين في ورشة آليات توثيق المنجزات للمنشآت المجتمعية</a>
+							</div>
+						</div>
+            <div class="newsItem">
+							<div class="content">
+								<img alt="" class="ml-3" src="./images/1_0.jpeg"> <a href="">وكيل الجامعة يُكّرم المشاركين في ورشة آليات توثيق المنجزات للمنشآت المجتمعية</a>
+							</div>
+						</div>
+            <div class="newsItem">
+							<div class="content">
+								<img alt="" class="ml-3" src="./images/1_0.jpeg"> <a href="">وكيل الجامعة يُكّرم المشاركين في ورشة آليات توثيق المنجزات للمنشآت المجتمعية</a>
+							</div>
+						</div>
+            <div class="newsItem">
+							<div class="content">
+								<img alt="" class="ml-3" src="./images/1_0.jpeg"> <a href="">وكيل الجامعة يُكّرم المشاركين في ورشة آليات توثيق المنجزات للمنشآت المجتمعية</a>
+							</div>
+						</div>
+            <div class="newsItem">
+							<div class="content">
+								<img alt="" class="ml-3" src="./images/1_0.jpeg"> <a href="">وكيل الجامعة يُكّرم المشاركين في ورشة آليات توثيق المنجزات للمنشآت المجتمعية</a>
+							</div>
+						</div>
+            <div class="newsItem">
+							<div class="content">
+								<img alt="" class="ml-3" src="./images/1_0.jpeg"> <a href="">وكيل الجامعة يُكّرم المشاركين في ورشة آليات توثيق المنجزات للمنشآت المجتمعية</a>
+							</div>
+						</div>
+            <div class="newsItem">
+							<div class="content">
+								<img alt="" class="ml-3" src="./images/1_0.jpeg"> <a href="">وكيل الجامعة يُكّرم المشاركين في ورشة آليات توثيق المنجزات للمنشآت المجتمعية</a>
+							</div>
+						</div>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid mt-4 mb-3 p-0">
+		<div class="row">
+			<div class="col">
+				<div class="bg-white customrounded shadow-sm d-flex mt-3 apps">
+					<div class="title">
+						<!-- <img src="./images/mobile-app.svg"> -->
+						 <span>تطبيقات الجامعة</span>
+					</div>
+					<div class="carousel slide w-100 p-2" data-ride="carousel" id="appsslider">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<div class="appslideritemcontainer">
+									<div class="slider__content">
+										<div class="apptitle">
+											تطبيق خدماتي
+										</div>
+										<div class="d-flex">
+											<a href="http://" rel="noopener noreferrer" target="_blank"><img alt="First slide" class="" src="./images/apple.png"></a> <a href="http://" rel="noopener noreferrer" target="_blank"><img alt="First slide" class="" src="./images/google.png"></a>
+										</div>
+									</div>
+									<div class="slider__content">
+										<div class="apptitle">
+											تطبيق خدماتي
+										</div>
+										<div class="d-flex">
+											<a href="http://" rel="noopener noreferrer" target="_blank"><img alt="First slide" class="" src="./images/apple.png"></a> <a href="http://" rel="noopener noreferrer" target="_blank"><img alt="First slide" class="" src="./images/google.png"></a>
+										</div>
+									</div>
+									<div class="slider__content">
+										<div class="apptitle">
+											تطبيق خدماتي
+										</div>
+										<div class="d-flex">
+											<a href="http://" rel="noopener noreferrer" target="_blank"><img alt="First slide" class="" src="./images/apple.png"></a> <a href="http://" rel="noopener noreferrer" target="_blank"><img alt="First slide" class="" src="./images/google.png"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="appslideritemcontainer">
+									<div class="slider__content">
+										<div class="apptitle">
+											تطبيق خدماتي
+										</div>
+										<div class="d-flex">
+											<a href="http://" rel="noopener noreferrer" target="_blank"><img alt="First slide" class="" src="./images/apple.png"></a> <a href="http://" rel="noopener noreferrer" target="_blank"><img alt="First slide" class="" src="./images/google.png"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div><a class="carousel-control-prev" data-slide="prev" href="#appsslider" role="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" data-slide="next" href="#appsslider" role="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!-- twitter     -->
+	<!-- <div class="container-fluid mt-4 p-0">
         <div class="row">
 
     <div class="col">
@@ -596,67 +385,53 @@
 
             </div>
             </div> -->
-
-
-
-            <!-- ads&&important&opinion     -->
-<div class="container-fluid mt-4 p-0">
-    <div class="row">
-    <div class="col-md-4 col-sm-12">
-        <div class="bg-white customrounded shadow-sm avertis">
-            advertis    
-        </div>
-    </div>
-
-
-
-
-
-    <div class="col-md-4 col-sm-12">
-        <div class="bg-white customrounded shadow-sm systems">
-            important    
-        </div>
-    </div>
-
-
-    <div class="col-md-4 col-sm-12">
-        <div class="bg-white customrounded shadow-sm advertisin">
-          opinion
-       
-
-        </div>
-    </div>
-
-    </div>
-    </div>
-
-<footer>
-
-    <div class="container mt-3">
-
-        <div class="row">
-            <div class="col">
-    <div class="text-center content">
-        <p>    جميع الحقوق محفوظة 2021© جامعة المجمعة</p>
-        <p>تصميم وتنفيذ عمادة تقنية المعلومات</p>
-    </div>
-            </div>
-        </div>
-    </div>
-
-</footer>
-
-
-<script src="https://cdn.ckeditor.com/ckeditor5/25.0.0/classic/ckeditor.js"></script>
-
-<script src="./js/jquery-3.2.1.slim.min.js"></script>
-<script src="./js/popper.min.js"></script>
-<script src="./js/bootstrap.min.js"></script>
-<script src="./js/slick.min.js"></script>
-<script src="./js/slick.js"></script>
-<script src="./js/all.js"></script>
-
-<script src="./js/main.js"></script>
-
+	<!-- ads&&important&opinion     -->
+	<div class="container-fluid mt-4 p-0">
+		<div class="row">
+			<div class="col-md-4 col-sm-12">
+				<div class="bg-white customrounded shadow-sm avertis">
+					advertis
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<div class="bg-white customrounded shadow-sm systems">
+					important
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<div class="bg-white customrounded shadow-sm advertisin">
+					opinion
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container mt-3">
+			<div class="row">
+				<div class="col">
+					<div class="text-center content">
+						<p>جميع الحقوق محفوظة 2021© جامعة المجمعة</p>
+						<p>تصميم وتنفيذ عمادة تقنية المعلومات</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://cdn.ckeditor.com/ckeditor5/25.0.0/classic/ckeditor.js">
+	</script> 
+	<script src="./js/jquery-3.2.1.slim.min.js">
+	</script> 
+	<script src="./js/popper.min.js">
+	</script> 
+	<script src="./js/bootstrap.min.js">
+	</script> 
+	<script src="./js/slick.min.js">
+	</script> 
+	<script src="./js/slick.js">
+	</script> 
+	<script src="./js/all.js">
+	</script> 
+	<script src="./js/main.js">
+	</script>
 </body>
 </html>
