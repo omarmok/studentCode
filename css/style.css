@@ -442,6 +442,13 @@ header .leftarea .notification span {
   }
 }
 
+.schedule {
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+
 .schedule .title {
   background: #2aa265;
   padding: 15px;
@@ -507,6 +514,27 @@ header .leftarea .notification span {
 
 .schedule .empety {
   background: #efefef;
+}
+
+.schedule ::-webkit-scrollbar {
+  width: 20px;
+}
+
+.schedule ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.schedule ::-webkit-scrollbar-thumb {
+  background: #23369d;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.schedule ::-webkit-scrollbar-thumb:hover {
+  background: #fe350c;
 }
 
 .schedule .title::after {

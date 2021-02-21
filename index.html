@@ -70,43 +70,58 @@
 						كلية الحساب الالي
 					</div>
 					<div class="d-flex mt-3 buttons">
-						<button class="btn green__btn ml-1" data-target="#personalmodal" data-toggle="modal"><img alt="" src="./images/information.svg"> الشخصية</button> <button class="btn red__btn" data-target="#studymodal" data-toggle="modal"><img alt="" src="./images/information.svg"> الدراسية</button>
+						<button class="btn green__btn ml-1" data-target="#personalmodal" data-toggle="modal">
+							<img alt="" src="./images/information.svg"> الشخصية</button>
+							 <button class="btn red__btn" data-target="#studymodal" data-toggle="modal"><img alt="" src="./images/information.svg"> الدراسية</button>
 					</div>
 				</div>
-			</div><!-- personalmodal -->
-			<div aria-hidden="true" aria-labelledby="personalmodalLabel" class="modal fade" id="personalmodal" role="dialog" tabindex="-1">
-				<div class="modal-dialog modal-lg" role="document">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h5 class="modal-title" id="personalmodalLabel">معلوماتي الشخصية <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button> </h5>
+			</div>
+
+
+			<!-- personalmodal -->
+			<div class="modal fade" id="personalmodal" tabindex="-1" role="dialog" aria-labelledby="personalmodal" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+					<h5 class="modal-title" id="personalmodal">معلوماتي الشخصية</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					</div>
+					<div class="modal-body">
+						معلوماتي الشخصية
+					</div>
+					<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+				
+					</div>
+				</div>
+				</div>
+			</div>
+
+
+					<!-- studymodal -->
+					<div class="modal fade" id="studymodal" tabindex="-1" role="dialog" aria-labelledby="studymodal" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+							<h5 class="modal-title" id="studymodal">معلوماتي الدراسية</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							</div>
 							<div class="modal-body">
-								<h5 class="modal-title" id="personalmodalLabel">معلوماتي الشخصية </h5>
-								<div class="modal-footer">
-									<h5 class="modal-title" id="personalmodalLabel"><button class="btn btn-secondary" data-dismiss="modal" type="button">إغلاق</button> <!-- studymodal --></h5>
-									<div aria-hidden="true" aria-labelledby="studymodalLabel" class="modal fade" id="studymodal" role="dialog" tabindex="-1">
-										<h5 class="modal-title" id="personalmodalLabel"></h5>
-										<div class="modal-dialog modal-lg" role="document">
-											<h5 class="modal-title" id="personalmodalLabel"></h5>
-											<div class="modal-content">
-												<h5 class="modal-title" id="personalmodalLabel"></h5>
-												<div class="modal-header">
-													<h5 class="modal-title" id="personalmodalLabel"></h5>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>معلوماتي الدراسية <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button>
+								معلوماتي الدراسية
+							</div>
+							<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+						
+							</div>
 						</div>
-						<div class="modal-body">
-							معلوماتي الدراسية
-						</div>
-						<div class="modal-footer">
-							<button class="btn btn-secondary" data-dismiss="modal" type="button">إغلاق</button>
 						</div>
 					</div>
-				</div>
-			</div><!-- end user area -->
+
+	
 			<!-- start advertisementboard -->
 			<div class=" col-8 col-lg-5 mb-3">
 				<div class="bg-white customrounded shadow-sm advertisementboard">
@@ -223,13 +238,13 @@
 	</div><!-- newsevents     -->
 	<div class="container-fluid mt-4 p-0">
 		<div class="row">
-			<div class="col-12 col-lg-4">
+			<div class="col-12 col-lg-4 mb-3">
 				<div class=" appsPrograms">
 					<div class="bg-white customrounded shadow-sm d-flex programs">
 						<div class="title">
 							<img src="./images/folder.svg"> <span>البرامج</span>
 						</div>
-						<div class="carousel slide w-100" data-ride="carousel" id="progslider">
+						<div class="carousel slide w-75" data-ride="carousel" id="progslider">
 							<div class="carousel-inner">
 								<div class="carousel-item active">
 									<div class="d-flex align-items-center justify-content-between p-2">
@@ -246,7 +261,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-12 col-lg-4">
+			<div class="col-12 col-lg-4 mb-3">
 				<div class="bg-white customrounded shadow-sm events">
 					<h3>أحداث وفعاليات</h3>
 					<div class="eventslider">
@@ -273,7 +288,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-12 col-lg-4">
+			<div class="col-12 col-lg-4 mb-3">
 				<div class="bg-white customrounded shadow-sm news">
 					<h3>اخبار جهتي</h3>
 					<div class="newsslider">
@@ -321,12 +336,12 @@
 	<div class="container-fluid mt-4 mb-3 p-0">
 		<div class="row">
 			<div class="col">
-				<div class="bg-white customrounded shadow-sm d-flex mt-3 apps">
+				<div class="bg-white customrounded shadow-sm d-flex apps">
 					<div class="title">
 						<!-- <img src="./images/mobile-app.svg"> -->
 						 <span>تطبيقات الجامعة</span>
 					</div>
-					<div class="carousel slide w-100 p-2" data-ride="carousel" id="appsslider">
+					<div class="carousel slide w-75 p-2" data-ride="carousel" id="appsslider">
 						<div class="carousel-inner">
 							<div class="carousel-item active">
 								<div class="appslideritemcontainer">
