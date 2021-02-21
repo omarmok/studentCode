@@ -60,6 +60,10 @@ header {
   border-radius: 5px;
 }
 
+header .rightarea img {
+  height: 50px;
+}
+
 header .rightarea span {
   width: 1px;
   height: 80px;

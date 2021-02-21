@@ -6,21 +6,30 @@ header{
     border-radius: 5px;
 
 
-.rightarea span{
-    width: 1px;
-    height: 80px;
-    background: #eaeaea;
-    margin: 0 17px;
+.rightarea {
+    img{
+        height: 50px;
     }
+    span{
+        width: 1px;
+        height: 80px;
+        background: #eaeaea;
+        margin: 0 17px;
+     
+        }
+        .page__title{
+            font-weight: 600;
+            color:#23369D;
+            font-size: 20px;
+            text-align: right;
+            
+            } 
+}
+
+
+
     
-    
-    .rightarea .page__title{
-    font-weight: 600;
-    color:#23369D;
-    font-size: 20px;
-    text-align: right;
-    
-    }
+  
 
     .leftarea{
         display: flex;
