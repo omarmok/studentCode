@@ -200,20 +200,28 @@ header .leftarea .notification span {
 }
 
 .userarea .username {
-  font-size: 16px;
+  font-size: 1vw;
   font-weight: bold;
   color: #002D71;
   margin-top: 20px;
 }
 
 .userarea .usercollage {
-  font-size: 12px;
+  font-size: 1vw;
   color: #ef5727;
+}
+
+.buttons .green__btn {
+  font-size: 1vw;
 }
 
 .buttons .green__btn img {
   height: 15px;
   margin-left: 5px;
+}
+
+.buttons .red__btn, .buttons .green__btn {
+  font-size: 1vw;
 }
 
 .buttons .red__btn img, .buttons .green__btn img {
@@ -226,24 +234,34 @@ header .leftarea .notification span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .advertisementboard .advimage {
   font-weight: bold;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  /* flex-direction: column; */
+  /* -webkit-box-align: center; */
+  -ms-flex-align: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  /* justify-content: center; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-left: 30px;
+}
+
+.advertisementboard .advimage img {
+  height: 40px;
+  margin-bottom: 10px;
 }
 
 .advertisementboard .greenboardslider {
@@ -253,8 +271,8 @@ header .leftarea .notification span {
 }
 
 .advertisementboard .greenboardslider img {
-  height: 40%;
-  width: 80%;
+  height: 100%;
+  width: 100%;
 }
 
 .Systemsrograms {
@@ -301,10 +319,18 @@ header .leftarea .notification span {
 }
 
 .Systemsrograms .systems {
-  min-height: 300px;
-  max-height: 300px;
+  min-height: 220px;
+  max-height: 220px;
   overflow-y: scroll;
   margin: 15px;
+}
+
+.Systemsrograms .systems .systems__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .Systemsrograms .systems .systems__container .system {
@@ -326,14 +352,17 @@ header .leftarea .notification span {
   margin: 4px;
   text-align: center;
   -webkit-box-shadow: 4px 4px 10px 0 #d1d9e6, -4px -4px 10px 0 #fff;
-          box-shadow: 4px 4px 10px 0 #d1d9e6, -4px -4px 10px 0 #fff;
+  box-shadow: 4px 4px 10px 0 #d1d9e6, -4px -4px 10px 0 #fff;
   border-radius: 5px;
   padding: 15px;
   text-decoration: none;
   font-weight: 600;
+  width: 43%;
+  margin: 3%;
 }
 
 .Systemsrograms .systems .systems__container .system img {
+  height: 30px;
   margin-bottom: 10px;
 }
 
@@ -544,6 +573,10 @@ header .leftarea .notification span {
   z-index: 10;
 }
 
+.appsPrograms .programs #progslider .carousel-inner img {
+  height: 50px;
+}
+
 .appsPrograms .programs #progslider .carousel-control-next, .appsPrograms .programs #progslider .carousel-control-prev {
   width: 30px;
   height: 30px;
@@ -598,6 +631,10 @@ header .leftarea .notification span {
   z-index: 10;
 }
 
+.appsPrograms #appsslider .carousel-inner {
+  margin-top: 25px;
+}
+
 .appsPrograms #appsslider .carousel-inner .slider__content {
   text-align: right;
 }
@@ -609,8 +646,8 @@ header .leftarea .notification span {
 }
 
 .appsPrograms #appsslider .carousel-inner .slider__content img {
-  width: 150px;
-  margin: 10px;
+  height: 30px;
+  margin: 1px;
 }
 
 .appsPrograms #appsslider .carousel-control-next, .appsPrograms #appsslider .carousel-control-prev {
@@ -789,6 +826,7 @@ body {
   padding: 80px;
   overflow-x: hidden;
   font-family: '29LT Bukra';
+  position: relative;
 }
 
 a {
@@ -972,37 +1010,37 @@ i {
 
 @-webkit-keyframes MoveUpDown4 {
   0%, 100% {
-    top: 40%;
+    bottom: 10%;
   }
   50% {
-    top: 60%;
+    bottom: 30%;
   }
 }
 
 @keyframes MoveUpDown4 {
   0%, 100% {
-    top: 40%;
+    bottom: 10%;
   }
   50% {
-    top: 60%;
+    bottom: 30%;
   }
 }
 
 @-webkit-keyframes MoveUpDown5 {
   0%, 100% {
-    top: 80%;
+    bottom: 15%;
   }
   50% {
-    top: 50%;
+    bottom: 20%;
   }
 }
 
 @keyframes MoveUpDown5 {
   0%, 100% {
-    top: 80%;
+    bottom: 15%;
   }
   50% {
-    top: 50%;
+    bottom: 20%;
   }
 }
 
@@ -1054,7 +1092,6 @@ i {
 
 .orangecircle {
   position: absolute;
-  top: 40%;
   left: 10px;
   animation: MoveUpDown4 10s linear infinite;
   -webkit-animation: MoveUpDown4 10s linear infinite;

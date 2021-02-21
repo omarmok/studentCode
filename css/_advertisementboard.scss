@@ -1,21 +1,35 @@
 .advertisementboard{
     padding: 20px;
     display: flex;
+    flex-direction: column;
     .advimage{
         font-weight: bold;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        /* flex-direction: column; */
+        /* -webkit-box-align: center; */
+        -ms-flex-align: center;
         align-items: center;
-        justify-content: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        /* justify-content: center; */
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         margin-left: 30px;
+        img{
+            height: 40px;
+            margin-bottom: 10px;
+        }
     }
 
 
 .greenboardslider{
     flex:1;
     img{
-        height: 40%;
-        width: 80%;
+        height: 100%;
+        width: 100%;
     }
  
 }

@@ -75,27 +75,30 @@
 
 
     .username{
-        font-size: 16px;
+        font-size: 1vw;
         font-weight: bold;
         color: #002D71;
         margin-top: 20px;
     }
 
 .usercollage{
-    font-size: 12px;
+    font-size: 1vw;
     color: #ef5727;
 }
 
 }
 
 .buttons{
-    .green__btn{
+    .green__btn{  
+         font-size: 1vw;
+
         img{
             height: 15px;
     margin-left: 5px;
         }
     }
     .red__btn{
+        font-size: 1vw;
         img{
             height: 15px;
     margin-left: 5px;

@@ -81,6 +81,7 @@ body{
     padding: 80px;
     overflow-x: hidden;
     font-family: '29LT Bukra';
+    position: relative;
 }
 a {
     -webkit-transition: transition-duration, 0.5s ease;
@@ -251,12 +252,12 @@ a {
 
 @keyframes MoveUpDown4 {
     0%, 100% {
-        top: 40%;
+        bottom: 10%;
        
     }
 
     50% {
-        top: 60%;
+        bottom: 30%;
        
     }
 }
@@ -264,12 +265,12 @@ a {
 
 @keyframes MoveUpDown5 {
     0%, 100% {
-        top: 80%;
+        bottom: 15%;
        
     }
 
     50% {
-        top: 50%;
+        bottom: 20%;
        
     }
 }
@@ -325,7 +326,7 @@ a {
 
 .orangecircle{
     position: absolute;
-    top: 40%;
+
     left: 10px;
     animation: MoveUpDown4 10s linear infinite;
     -webkit-animation: MoveUpDown4 10s linear infinite;
