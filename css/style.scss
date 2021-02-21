@@ -71,6 +71,8 @@
   @import "_Systems.scss";
   @import "_schedule.scss";
   @import "_appsPrograms.scss";
+  @import "_events.scss";
+  @import "_apps.scss";
 
 
 
@@ -380,4 +382,8 @@ a {
                 align-self: stretch;
                 height: 100%;
             }
+        }
+
+        .slick-slider{
+            margin: 0;
         }

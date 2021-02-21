@@ -134,32 +134,29 @@
     right: auto;
     width: 47px;
     height: 75px;
-    background-image: url("http://maggiesadler.com/wp-content/uploads/2015/10/left-right-arrow.png");
      background-size: 95px;
     top: -9%;
-    left: 58px;
-    width: 47px;
-    height: 75px;
+ 
+  
     background: #7dc242;
-    height: 30px;
-    width: 30px;
-    left: 60px;
-        border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    left: 45px;
+
+     
   }
   button.slick-prev, button.slick-prev:hover {
+   
     position: absolute;
     top: -9%;
     left: 15px;
     z-index: 1;
-    width: 47px;
-    height: 75px;
-    background-image: url("http://maggiesadler.com/wp-content/uploads/2015/10/left-right-arrow.png");
-    background-size: 95px;
+   
       background-position-x: right;
-      background: #ff7200;
-      height: 30px;
-      width: 30px;
-          border-radius: 50%;
+      background: #7dc242;
+      height: 20px;
+      width: 20px;
+    
   }
   .slick-prev:before, .slick-next:before {
     font-size: 70px;
@@ -456,6 +453,7 @@
     border: 0;
     outline: none;
     background: transparent;
+    display: none;
   }
   .slick-dots li button:hover,
   .slick-dots li button:focus

@@ -14,45 +14,16 @@ jQuery(document).ready(function () {
 
 
 
-        $('.statistic__counter').slick({
+        $('.eventslider').slick({
         dots: true,
         infinite: true,
+        // vertical: true,
         speed: 500,
-        slidesToShow: 4 ,
+        slidesToShow: 1 ,
         slidesToScroll:1,
         autoplay:true,
         rtl:true,
-        // draggable:false,
-        responsive: [
-        {
-        breakpoint: 1024,
-        settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: false
-        }
-        },
-        {
-        breakpoint: 600,
-        settings: {
-        slidesToShow:1,
-        slidesToScroll:1,
-            infinite: true,
-        dots: false
-        }
-        },
-        {
-        breakpoint: 480,
-        settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: false
-        }
-        }
-
-        ]
+      
         });
 
 

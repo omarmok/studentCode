@@ -36,7 +36,7 @@
 
         #progslider{
             .carousel-inner{
-                // margin-top: 40px;
+                margin-top: 40px;
                 // padding: 15px;
 
                 img{
@@ -49,7 +49,8 @@
                 width: 30px;
                 height: 30px;
                 border-radius: 4px;
-                top: 70%;
+              
+                top: 10%;
                 background: #eaeaea;
                 opacity: 1;
             }
@@ -62,80 +63,7 @@
             }
         }
     }
-.apps{
-    .title{
-        background: #ff7a4e;
-        padding: 15px;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        color: #fff;
-        /* -webkit-box-orient: vertical; */
-        /* -webkit-box-direction: normal; */
-        -ms-flex-direction: column;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        flex-direction: column;
-        /* margin-left: 40px; */
-        font-size: 18px;
-        font-weight: bold;
-        position: relative;
-        overflow: hidden;
-        border-radius: 0 10px 10px 0;
-        width: 190px;
-        text-align: center;
-        span {
-            z-index: 99999;
-        }
-        img
-          {
-            margin-bottom: 10px;
-            height: 50px;
-            z-index: 10;
-          }
-    }
-}
 
-
-#appsslider{
-    .carousel-inner{
-     
-           margin-top: 25px;
-
-        .slider__content{
-            text-align: right;
-            .apptitle{
-                font-weight: 600;
-                margin-right: 10px;
-                color: #39539e;
-            }
-            img{
-                height: 30px;
-             
-                margin: 1px;
-            }
-        }
-    }
-
-    .carousel-control-next, .carousel-control-prev{
-        width: 30px;
-        height: 30px;
-        border-radius: 4px;
-        top: 70%;
-        background: #ffe5dc;
-        opacity: 1;
-    }
-    .carousel-control-prev {
-        left: 10px;
-    }
-    .carousel-control-next {
-        right: auto;
-        left: 50px;
-    }
-}
 
 }
 
@@ -209,82 +137,5 @@
     }
 
 }
-
-
-
-
-
-.apps .title::after{
-    content: '';
-    display: inline-block;
-    width: 90px;
-    height: 90px;
-    border-radius: 7.5px;
-    background-color: #FED201;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    position: absolute;
-    z-index: 9;
-    left: -31px;
-    bottom: -22px;
-    -webkit-animation: apps  8s linear infinite;
- }
-
-
- .apps .title::before{
-    content: '';
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    border-radius: 7.5px;
-    background-color: #FED201;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    position: absolute;
-    z-index: 9;
-    right: 10px;
-    top: 10px;
-    -webkit-animation: appsafter 10s linear infinite;
- }
-
-
-
-
-@keyframes apps  {
-    0%, 100% {
-        // left: -31px;
-        bottom: -22px;
-    }
-
-
-    50% {
-        // left: 90%;
-        bottom: 70%;
-    }
-
-}
-
-
-
-
-@keyframes appsafter {
-    0%, 100% {
-        // right: 10px;
-        top: 10px;
-    }
-
-
-    50% {
-        // right: 70%;
-        top: 90%;
-    }
-
-}
-
-
 
 
