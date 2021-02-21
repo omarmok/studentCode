@@ -319,8 +319,9 @@ header .leftarea .notification span {
 }
 
 .Systemsrograms .systems {
-  min-height: 220px;
-  max-height: 220px;
+  height: 360px;
+  min-height: 360px;
+  max-height: 360px;
   overflow-y: scroll;
   margin: 15px;
 }
@@ -362,7 +363,7 @@ header .leftarea .notification span {
 }
 
 .Systemsrograms .systems .systems__container .system img {
-  height: 30px;
+  height: 40px;
   margin-bottom: 10px;
 }
 
@@ -601,6 +602,10 @@ header .leftarea .notification span {
   z-index: 10;
 }
 
+.programs .progsliderContainer {
+  width: 68%;
+}
+
 .programs .progsliderContainer button.slick-next, .programs .progsliderContainer button.slick-next:hover {
   top: 4%;
 }
@@ -786,52 +791,77 @@ header .leftarea .notification span {
   z-index: 10;
 }
 
-#appsslider .carousel-inner .appslideritemcontainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+.apps .appssliderContainer {
+  width: 90%;
 }
 
-#appsslider .carousel-inner .appslideritemcontainer .slider__content {
+.apps .appsslider button.slick-next, .apps .appsslider button.slick-next:hover {
+  top: 4%;
+}
+
+.apps .appsslider button.slick-prev, .apps .appsslider button.slick-prev:hover {
+  top: 4%;
+}
+
+.apps .appsslider .slick-slide {
+  margin-top: 15px;
+  padding: 0;
+}
+
+.apps .appsslider .slick-slide img {
+  height: 80px;
+}
+
+.apps .appsslider .slider__content {
   text-align: right;
 }
 
-#appsslider .carousel-inner .appslideritemcontainer .slider__content .apptitle {
+.apps .appsslider .slider__content .apptitle {
   font-weight: 500;
   font-size: 14px;
   margin-right: 10px;
   color: #000;
 }
 
-#appsslider .carousel-inner .appslideritemcontainer .slider__content img {
+.apps .appsslider .slider__content img {
   height: 40px;
   margin: 10px;
 }
 
-#appsslider .carousel-control-next, #appsslider .carousel-control-prev {
-  width: 30px;
-  height: 30px;
-  border-radius: 4px;
-  top: 50%;
-  background: #fdd300;
-  opacity: 1;
-  z-index: 9999;
-  border-radius: 50%;
+.apps .title::after {
+  content: '';
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  border-radius: 7.5px;
+  background: #fdd200;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  z-index: 9;
+  left: -31px;
+  bottom: -22px;
+  -webkit-animation: apps  8s linear infinite;
 }
 
-#appsslider .carousel-control-prev {
-  right: -71px;
-  left: auto;
-}
-
-#appsslider .carousel-control-next {
-  right: -110px;
+.apps .title::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 7.5px;
+  background: #fdd200;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  z-index: 9;
+  right: 10px;
+  top: 10px;
+  -webkit-animation: appsafter 10s linear infinite;
 }
 
 @-webkit-keyframes apps {
@@ -889,6 +919,9 @@ header .leftarea .notification span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .news .newsslider .newsItem .content a {
@@ -901,6 +934,96 @@ header .leftarea .notification span {
 .news .newsslider .newsItem .content img {
   height: 73px;
   width: 105px;
+}
+
+.avertis {
+  text-align: right;
+  padding: 15px;
+}
+
+.avertis h3 {
+  color: #030303;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.avertis .carousel-indicators {
+  top: -20px;
+  right: auto;
+  margin-left: 0;
+}
+
+.avertis .carousel-indicators li {
+  background-color: #81b400;
+  height: 5px;
+  cursor: pointer;
+}
+
+.avertis .carousel-indicators .active {
+  background-color: #fe6d0d;
+}
+
+.avertis img {
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.importantNumbers {
+  text-align: right;
+  padding: 15px;
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+
+.importantNumbers h3 {
+  color: #030303;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.importantNumbers .numbersContainer {
+  height: 125px;
+  min-height: 125px;
+  max-height: 125px;
+  overflow-y: scroll;
+}
+
+.importantNumbers .numbersContainer .d-flex {
+  padding: 10px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.importantNumbers .numbersContainer .title {
+  font-size: 12px;
+  color: #030303;
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.importantNumbers .numbersContainer .description {
+  font-size: 12px;
+  color: #756a6a;
+  font-weight: 500;
+}
+
+.importantNumbers ::-webkit-scrollbar {
+  width: 10px;
+}
+
+.importantNumbers ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.importantNumbers ::-webkit-scrollbar-thumb {
+  background: #81b400;
+  border-radius: 10px;
+}
+
+.importantNumbers ::-webkit-scrollbar-thumb:hover {
+  background: #fe350c;
 }
 
 body {
@@ -1096,7 +1219,7 @@ i {
     bottom: 10%;
   }
   50% {
-    bottom: 30%;
+    bottom: 25%;
   }
 }
 
@@ -1105,25 +1228,25 @@ i {
     bottom: 10%;
   }
   50% {
-    bottom: 30%;
+    bottom: 25%;
   }
 }
 
 @-webkit-keyframes MoveUpDown5 {
   0%, 100% {
-    bottom: 15%;
+    bottom: 5%;
   }
   50% {
-    bottom: 20%;
+    bottom: 10%;
   }
 }
 
 @keyframes MoveUpDown5 {
   0%, 100% {
-    bottom: 15%;
+    bottom: 5%;
   }
   50% {
-    bottom: 20%;
+    bottom: 10%;
   }
 }
 
@@ -1175,7 +1298,7 @@ i {
 
 .orangecircle {
   position: absolute;
-  left: 10px;
+  left: 0;
   animation: MoveUpDown4 10s linear infinite;
   -webkit-animation: MoveUpDown4 10s linear infinite;
 }
@@ -1186,7 +1309,7 @@ i {
 
 .greencircle {
   position: absolute;
-  left: 0;
+  left: 30px;
   animation: MoveUpDown5 11s linear infinite;
   -webkit-animation: MoveUpDown5 11s linear infinite;
 }
@@ -1236,5 +1359,11 @@ i {
 
 .slick-slider {
   margin: 0;
+}
+
+footer p {
+  margin: 5px;
+  font-size: 9px;
+  font-weight: 500;
 }
 /*# sourceMappingURL=style.css.map */

@@ -36,8 +36,9 @@
     }
 
 .systems{
-    min-height: 220px;
-    max-height: 220px;
+    height: 360px;
+    min-height: 360px;
+    max-height: 360px;
     overflow-y: scroll;
     margin: 15px;
     .systems__container{
@@ -71,7 +72,7 @@
             margin: 3%;
  
                 img{
-                    height: 30px;
+                    height: 40px;
                 margin-bottom: 10px;
             }
             &:hover{

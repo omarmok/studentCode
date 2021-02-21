@@ -1,0 +1,58 @@
+.importantNumbers{
+    text-align: right;
+    padding: 15px;
+    h3{
+        color:#030303;
+        font-size: 18px;
+        font-weight: bold;
+    }
+.numbersContainer{
+    height: 125px;
+    min-height: 125px;
+    max-height: 125px;
+    overflow-y: scroll;
+    .d-flex{
+        padding: 10px;
+        border-bottom: 1px solid #f1f1f1;
+    }
+    .title{
+        font-size: 12px;
+        color:#030303;
+        margin-left: 20px;
+        font-weight: 600;
+    }
+
+    .description{
+        font-size: 12px;
+        color: #756a6a;
+        font-weight:500;
+    }
+
+
+    }
+
+    /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #81b400;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fe350c;
+  }
+
+   
+}
+
+
