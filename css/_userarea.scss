@@ -126,6 +126,27 @@
         }
         .modal-body{
             text-align: right;
+
+            .info{
+                background-color: #EFF4FD;
+                padding: 5px 15px;
+                font-size: 14px;
+                color: #002D71;
+              
+                border-radius: 5px;
+                margin: 1%;
+                width: 48%;
+           
+                .title
+{
+                       
+                        color:#ef5727
+                    }
+                    .description{
+                        font-weight: bold;
+                    }
+            }
+
         }
         
     }
@@ -133,13 +154,13 @@
 
 #personalmodal{
     .modal-header{
-        background-color:#96ce06 ;
+        background-color: #07bb54;
     } 
 
     .btn-secondary {
         color: #fff;
-        background-color: #96ce06;
-        border-color: #96ce06;
+        background-color: #07bb54;
+        border-color: #07bb54;
     }
 }
 

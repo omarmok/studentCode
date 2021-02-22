@@ -120,7 +120,8 @@ a {
 
 
 .shadow-sm {
-    box-shadow: 4px 4px 10px 0 #e0e4ea, -4px -4px 10px 0 #fff0;
+    // box-shadow: 4px 4px 10px 0 #e0e4ea, -4px -4px 10px 0 #fff0;
+    box-shadow: 1px 8px 16px rgba(22,91,136,0.2) ;
 }
 
 .customrounded{
@@ -372,9 +373,9 @@ a {
 
         .green__btn{
             @extend .red__btn;
-            background: #96ce06 0% 0% no-repeat padding-box;
+            background: #07bb54 0% 0% no-repeat padding-box;
             &:hover{
-                background: #81b400 ;
+                background: #079845 ;
             }
 
         }

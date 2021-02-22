@@ -256,14 +256,32 @@ header .leftarea .notification span {
   text-align: right;
 }
 
+.stratchedRow .modal .modal-body .info {
+  background-color: #EFF4FD;
+  padding: 5px 15px;
+  font-size: 14px;
+  color: #002D71;
+  border-radius: 5px;
+  margin: 1%;
+  width: 48%;
+}
+
+.stratchedRow .modal .modal-body .info .title {
+  color: #ef5727;
+}
+
+.stratchedRow .modal .modal-body .info .description {
+  font-weight: bold;
+}
+
 #personalmodal .modal-header {
-  background-color: #96ce06;
+  background-color: #07bb54;
 }
 
 #personalmodal .btn-secondary {
   color: #fff;
-  background-color: #96ce06;
-  border-color: #96ce06;
+  background-color: #07bb54;
+  border-color: #07bb54;
 }
 
 #studymodal .modal-header {
@@ -1059,6 +1077,7 @@ header .leftarea .notification span {
 .importantNumbers {
   text-align: right;
   padding: 15px;
+  background: url(../images/supportbg.svg) no-repeat bottom left #fff;
   /* width */
   /* Track */
   /* Handle */
@@ -1167,8 +1186,8 @@ i {
 }
 
 .shadow-sm {
-  -webkit-box-shadow: 4px 4px 10px 0 #e0e4ea, -4px -4px 10px 0 #fff0;
-          box-shadow: 4px 4px 10px 0 #e0e4ea, -4px -4px 10px 0 #fff0;
+  -webkit-box-shadow: 1px 8px 16px rgba(22, 91, 136, 0.2);
+          box-shadow: 1px 8px 16px rgba(22, 91, 136, 0.2);
 }
 
 .customrounded {
@@ -1443,11 +1462,11 @@ i {
 }
 
 .green__btn {
-  background: #96ce06 0% 0% no-repeat padding-box;
+  background: #07bb54 0% 0% no-repeat padding-box;
 }
 
 .green__btn:hover {
-  background: #81b400;
+  background: #079845;
 }
 
 .stratchedRow {
