@@ -922,7 +922,7 @@ header .leftarea .notification span {
 }
 
 .cd-schedule .event-name {
-  font-size: 2.4rem;
+  font-size: 14px;
 }
 
 @media only screen and (min-width: 800px) {
