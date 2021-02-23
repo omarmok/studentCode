@@ -856,6 +856,7 @@ header .leftarea .notification span {
     /* reset style */
     font-weight: normal;
     margin-bottom: 0;
+    font-weight: bold;
   }
   .cd-schedule .events .events-group > ul {
     height: 950px;
