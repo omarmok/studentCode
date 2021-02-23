@@ -67,27 +67,29 @@
 
         
 
-/* width */
+
 ::-webkit-scrollbar {
-    width: 20px;
+    width:10px;
   }
-  
-  /* Track */
+ 
   ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #f1f1f1;    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
   }
   
-  /* Handle */
+
   ::-webkit-scrollbar-thumb {
-    background: #23369d;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    background: #c7c7c7;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
 }
-  
-  /* Handle on hover */
+
   ::-webkit-scrollbar-thumb:hover {
     background: #fe350c;
   }
@@ -156,9 +158,9 @@
   
   @media only screen and (min-width: 800px) {
     .cd-schedule {
-      width: 90%;
-      max-width: 1400px;
-      margin: 2em auto;
+        width: 90%;
+        max-width: 1670px;
+        margin: 30px;
     }
     .cd-schedule::after {
       clear: both;
@@ -184,6 +186,8 @@
         width: 100%;
         padding-top: 65px;
         text-align: right;
+        font-weight: 600;
+        color: #ff5722;
     }
     .cd-schedule .timeline li {
       position: relative;
@@ -536,46 +540,6 @@
             transform-origin: top center;
   }
   
-  .cd-schedule .event-modal .close {
-    /* this is the 'X' icon */
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 3;
-    background: rgba(0, 0, 0, 0.1);
-    /* replace text with icon */
-    color: transparent;
-    white-space: nowrap;
-    text-indent: 100%;
-    height: 70px;
-    width: 70px;
-  }
-  
-  .cd-schedule .event-modal .close::before, .cd-schedule .event-modal .close::after {
-    /* these are the two lines of the 'X' icon */
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 2px;
-    height: 22px;
-    background: white;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  
-  .cd-schedule .event-modal .close::before {
-    -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
-        -ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
-            transform: translateX(-50%) translateY(-50%) rotate(45deg);
-  }
-  
-  .cd-schedule .event-modal .close::after {
-    -webkit-transform: translateX(-50%) translateY(-50%) rotate(-45deg);
-        -ms-transform: translateX(-50%) translateY(-50%) rotate(-45deg);
-            transform: translateX(-50%) translateY(-50%) rotate(-45deg);
-  }
-  
   .cd-schedule .event-modal .event-date {
     display: none;
   }
@@ -665,11 +629,7 @@
     }
   }
   
-  @media only screen and (min-width: 1000px) {
-    .cd-schedule .event-modal .header .content {
-      padding: 1.2em;
-    }
-  }
+ 
   
   .cd-schedule.modal-is-open .event-modal {
     /* .modal-is-open class is added as soon as an event is selected */
@@ -704,6 +664,12 @@
     }
   }
   
+
+  @media only screen and (max-width: 800px) {
+    .cd-schedule .events .events-group > ul{
+        padding-bottom: 17px;
+    }
+  }
   .cd-schedule .cover-layer {
     /* layer between the content and the modal window */
     position: fixed;
