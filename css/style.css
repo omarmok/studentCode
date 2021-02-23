@@ -683,9 +683,8 @@ header .leftarea .notification span {
 
 @media only screen and (min-width: 800px) {
   .cd-schedule {
-    width: 90%;
-    max-width: 1670px;
     margin: 30px;
+    padding-bottom: 15px;
   }
   .cd-schedule::after {
     clear: both;
@@ -754,6 +753,7 @@ header .leftarea .notification span {
 .cd-schedule .events {
   position: relative;
   z-index: 1;
+  padding: 0;
 }
 
 .cd-schedule .events .events-group {
