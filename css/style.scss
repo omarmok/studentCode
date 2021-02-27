@@ -77,6 +77,8 @@
   @import "_av.scss";
   @import "_importantNumbers.scss";
   @import "_opinion.scss";
+  @import "_responsive.scss";
+
 
 
 
@@ -88,6 +90,9 @@ body{
     overflow-x: hidden;
     font-family: '29LT Bukra';
     position: relative;
+   
+     
+   
 }
 a {
     -webkit-transition: transition-duration, 0.5s ease;

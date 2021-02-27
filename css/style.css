@@ -204,14 +204,14 @@ header .leftarea .notification span {
 }
 
 .userarea .username {
-  font-size: 1vw;
+  font-size: 14px;
   font-weight: bold;
   color: #057267;
   margin-top: 20px;
 }
 
 .userarea .usercollage {
-  font-size: 1vw;
+  font-size: 14px;
   color: #ef5727;
 }
 
@@ -332,7 +332,7 @@ header .leftarea .notification span {
 .advertisementboard .greenboardslider {
   position: relative;
   width: 100%;
-  height: 300px;
+  height: 100%;
   overflow: hidden;
 }
 
@@ -424,9 +424,9 @@ header .leftarea .notification span {
 }
 
 .Systemsrograms .systems {
-  height: 250px;
-  min-height: 250px;
-  max-height: 250px;
+  height: 170px;
+  min-height: 170px;
+  max-height: 170px;
   overflow-y: scroll;
   margin: 15px;
 }
@@ -1732,6 +1732,45 @@ header .leftarea .notification span {
   height: 100px;
   border: none;
   padding: 15px;
+}
+
+@media only screen and (max-width: 900px) {
+  body {
+    padding: 5px !important;
+  }
+  .bg {
+    display: none;
+  }
+  .greencircle {
+    display: none;
+  }
+  .orangecircle {
+    display: none;
+  }
+  .apps {
+    -webkit-box-orient: vertical  !important;
+    -webkit-box-direction: normal  !important;
+        -ms-flex-direction: column  !important;
+            flex-direction: column  !important;
+  }
+  .apps .title {
+    width: 100%;
+    padding: 5px 30px;
+    border-radius: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .apps .title img {
+    margin: 0;
+  }
+  .apps .appssliderContainer {
+    width: 100%;
+  }
 }
 
 body {

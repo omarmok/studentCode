@@ -26,7 +26,7 @@
 	<header data-aos="fade-down"  data-aos-easing="linear"data-aos-duration="1200">
 		<div class="container-fluid">
 			<div class="row align-items-center">
-				<div class="col-12 offset-4 col-lg-4">
+				<div class="col-12  col-lg-6">
 					<div class="d-flex align-items-center rightarea">
 						<a href="/" title="الشعار"><img alt="" src="./images/logo.png" srcset=""></a> <span></span>
 						<div class="page__title">
@@ -34,7 +34,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-lg-4">
+				<div class="col-12 col-lg-6">
 					<div class="leftarea">
 						<div class="date">
 							<img alt="" src="./images/calendar.svg" srcset="">
@@ -57,7 +57,7 @@
 	<div class="container-fluid mt-4 p-0">
 		<div class="row stratchedRow">
 			<!-- start user area -->
-			<div class=" col-4 col-lg-3 mb-3">
+			<div class="col-12 col-md-4 col-lg-3  mb-3">
 				<div class="bg-white customrounded shadow-sm userarea  " data-aos="fade-left" data-aos-easing="linear"data-aos-duration="1200">
 					<div class="round-wrap">
 						<div class="roundtwo">
@@ -192,7 +192,7 @@
 					</div>
 				</div>
 			</div><!-- start advertisementboard -->
-			<div class=" col-8 col-lg-5 mb-3">
+			<div class=" col-12 col-md-8 col-lg-5 mb-3">
 				<div class="bg-white customrounded shadow-sm advertisementboard  " data-aos="fade-up" data-aos-easing="linear"data-aos-duration="1200">
 					<div class="advimage">
 						<img alt="" src="./images/larg_notification_image.svg"> <span class=" mr-3">لوحة الإعلانات</span>
@@ -219,7 +219,7 @@
 				</div>
 			</div><!-- end advertisementboard -->
 			<!-- start Systemsrograms -->
-			<div class="col-12 col-lg-4 mb-3">
+			<div class="col-12 col-md-12 col-lg-4 mb-3">
 				<div class="customrounded d-flex Systemsrograms " data-aos="fade-right" data-aos-easing="linear"data-aos-duration="1200">
 					<div class="title">
 						<img src="./images/Outline.svg"> <span>الانظمة</span>
@@ -749,9 +749,9 @@
             </div>
             </div> -->
 	<!-- ads&&important&opinion     -->
-	<div class="container-fluid mt-4 mb-2 p-0">
+	<div class="container-fluid mt-4 mb-4 p-0">
 		<div class="row">
-			<div class="col-md-4 col-sm-12  mb-3">
+			<div class="col-md-4 col-sm-12  mb-4">
 				<div class="bg-white customrounded shadow-sm avertis" data-aos="fade-left"
 				data-aos-easing="ease-in-sine"
 				data-aos-duration="2000">
@@ -770,7 +770,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 col-sm-12  mb-3">
+			<div class="col-md-4 col-sm-12  mb-4">
 				<div class="bg-white customrounded shadow-sm importantNumbers" data-aos="fade-down"
 				data-aos-easing="ease-in-sine"
 				data-aos-duration="2000">
@@ -852,7 +852,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 col-sm-12  mb-3">
+			<div class="col-md-4 col-sm-12  mb-4">
 				<div class="bg-white customrounded shadow-sm opinion" data-aos="fade-up"
 				data-aos-easing="ease-in-sine"
 				data-aos-duration="2000">
@@ -894,7 +894,13 @@
 	<script src="./js/main.js">
 	</script>
 	<script>
-		AOS.init();
+	AOS.init({
+  disable: function() {
+    var maxWidth = 800;
+    return window.innerWidth < maxWidth;
+  }
+});
+		
 	  </script>
 </body>
 </html>

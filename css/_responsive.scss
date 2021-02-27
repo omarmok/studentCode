@@ -1,0 +1,43 @@
+@media only screen and (max-width: 900px) {
+    body {
+        // background: red  !important;
+        padding: 5px !important;
+    }
+    .bg{
+        display: none;
+    }
+    .userarea{
+        .buttons{
+            .green__btn{
+            //    margin-left: 0  !important;
+            }
+            // flex-direction: column;
+        }
+       
+    }
+    .greencircle{
+        display: none;
+    }
+    .orangecircle{
+        display: none;
+    }
+    .apps{
+        flex-direction: column  !important;
+        
+        .title{
+            width: 100%;
+            padding: 5px 30px;
+            border-radius: 0;
+            flex-direction: row;
+            align-items: center;
+            img{
+                margin: 0;
+            }
+        }
+        .appssliderContainer{
+            width: 100%;
+        }
+    }
+ 
+   
+  }
