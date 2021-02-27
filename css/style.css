@@ -73,7 +73,7 @@ header .rightarea span {
 
 header .rightarea .page__title {
   font-weight: 600;
-  color: #23369D;
+  color: #057267;
   font-size: 20px;
   text-align: right;
 }
@@ -206,7 +206,7 @@ header .leftarea .notification span {
 .userarea .username {
   font-size: 1vw;
   font-weight: bold;
-  color: #002D71;
+  color: #057267;
   margin-top: 20px;
 }
 
@@ -396,7 +396,7 @@ header .leftarea .notification span {
 }
 
 .Systemsrograms .title {
-  background: #FF7A4E;
+  background: #0b9688;
   padding: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -549,7 +549,7 @@ header .leftarea .notification span {
 }
 
 .schedule .title {
-  background: #2aa265;
+  background: #0b9688;
   padding: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1256,7 +1256,7 @@ header .leftarea .notification span {
 }
 
 .programs .title {
-  background: #23369D;
+  background: #0b9688;
   padding: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1317,7 +1317,7 @@ header .leftarea .notification span {
   width: 90px;
   height: 90px;
   border-radius: 7.5px;
-  background-color: #ADEFFF;
+  background-color: #097065;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1335,7 +1335,7 @@ header .leftarea .notification span {
   width: 20px;
   height: 20px;
   border-radius: 7.5px;
-  background-color: #ADEFFF;
+  background-color: #fdd300;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1416,7 +1416,7 @@ header .leftarea .notification span {
 }
 
 .events .content .date {
-  color: #81B400;
+  color: #0b9688;
   font-weight: bold;
   font-size: 20px;
   display: -webkit-box;
@@ -1444,7 +1444,7 @@ header .leftarea .notification span {
 }
 
 .apps .title {
-  background: #ff794e;
+  background: #0b9688;
   padding: 20px 12px 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1642,7 +1642,7 @@ header .leftarea .notification span {
 }
 
 .avertis .carousel-indicators li {
-  background-color: #81b400;
+  background-color: #0b9688;
   height: 5px;
   cursor: pointer;
 }
@@ -2045,11 +2045,11 @@ i {
 }
 
 .green__btn {
-  background: #07bb54 0% 0% no-repeat padding-box;
+  background: #0b9688 0% 0% no-repeat padding-box;
 }
 
 .green__btn:hover {
-  background: #079845;
+  background: #089385;
 }
 
 .stratchedRow {
