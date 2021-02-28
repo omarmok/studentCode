@@ -1771,6 +1771,24 @@ header .leftarea .notification span {
   .apps .appssliderContainer {
     width: 100%;
   }
+  .programs .progsliderContainer .slick-slide img {
+    height: 80px;
+    margin: 0 auto;
+  }
+  .apps .appsslider .slider__content img {
+    height: 35px;
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .userarea .buttons .red__btn, .userarea .buttons .green__btn, .userarea .buttons .green__btn {
+    font-size: 14px;
+  }
+}
+
+html {
+  overflow-x: hidden;
 }
 
 body {
