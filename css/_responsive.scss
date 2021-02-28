@@ -1,4 +1,4 @@
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1024px) {
  
     body {
         // background: red  !important;
@@ -48,6 +48,10 @@
     .apps .appsslider .slider__content img {
         height: 35px;
         margin: 10px;
+    }
+
+    .news .newsslider .newsItem .content a{
+        font-size: 10px;
     }
   }
 
