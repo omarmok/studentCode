@@ -1785,6 +1785,21 @@ header .leftarea .notification span {
   .userarea .buttons .red__btn, .userarea .buttons .green__btn, .userarea .buttons .green__btn {
     font-size: 14px;
   }
+  header .leftarea {
+    font-size: 10px;
+    color: #7A7A7A;
+  }
+  header .leftarea img {
+    width: 14px;
+    height: 14px;
+  }
+  header .leftarea .notification span {
+    width: 5px;
+    height: 5px;
+  }
+  .cd-schedule .events .single-event {
+    height: 60px;
+  }
 }
 
 html {

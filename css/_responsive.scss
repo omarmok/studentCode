@@ -56,4 +56,21 @@
     .userarea .buttons .red__btn, .userarea .buttons .green__btn {
         font-size: 14px;
     }
+    header .leftarea{
+        font-size: 10px;
+        color: #7A7A7A;
+        img{
+            width: 14px;
+            height: 14px;
+        }
+     .notification{
+        span {
+            width: 5px;
+            height: 5px;
+     }
+    }  }
+
+    .cd-schedule .events .single-event{
+        height: 60px;
+    }
   }
