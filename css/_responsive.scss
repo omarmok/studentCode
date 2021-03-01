@@ -53,6 +53,23 @@
     .news .newsslider .newsItem .content a{
         font-size: 10px;
     }
+
+
+    .importantNumbers{
+background:#fff;
+        .numbersContainer{
+            height: 70px;
+        min-height: 70px; 
+        max-height: 70px; 
+        overflow-x: scroll;
+        overflow-y: hidden;
+        display: flex;
+         flex-wrap: nowrap;
+         .d-flex{
+            flex: 0 0 250px;
+         }
+    }
+    }
   }
 
 
