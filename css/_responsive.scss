@@ -33,18 +33,18 @@
             flex-direction: row;
             align-items: center;
             img{
-                margin: 0;
+                // margin: 0;
             }
         }
         .appssliderContainer{
             width: 100%;
         }
     }
- 
-    .programs .progsliderContainer .slick-slide img {
-        height: 80px;
-        margin: 0 auto;
-    }
+
+
+
+
+   
     .apps .appsslider .slider__content img {
         height: 35px;
         margin: 10px;
@@ -56,7 +56,7 @@
 
 
     .importantNumbers{
-background:#fff;
+        background:#fff;
         .numbersContainer{
             height: 70px;
         min-height: 70px; 
@@ -70,8 +70,39 @@ background:#fff;
          }
     }
     }
-  }
 
+    .programs {
+        flex-direction: column  !important;
+        
+        .title{
+            width: 100%;
+            padding: 5px 30px;
+            border-radius: 0;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            img{
+                margin-left: 10px;
+                margin-bottom: 0;
+                height: 45px;
+            }
+        }
+        .progsliderContainer{
+            width: 100%;
+            .slick-slide{
+                img {
+                    height: 80px;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+  }
+ 
 
   @media only screen and (max-width: 600px) {
     .userarea .buttons .red__btn, .userarea .buttons .green__btn {

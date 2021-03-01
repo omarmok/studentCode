@@ -1761,15 +1761,8 @@ header .leftarea .notification span {
         -ms-flex-align: center;
             align-items: center;
   }
-  .apps .title img {
-    margin: 0;
-  }
   .apps .appssliderContainer {
     width: 100%;
-  }
-  .programs .progsliderContainer .slick-slide img {
-    height: 80px;
-    margin: 0 auto;
   }
   .apps .appsslider .slider__content img {
     height: 35px;
@@ -1797,6 +1790,36 @@ header .leftarea .notification span {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 250px;
             flex: 0 0 250px;
+  }
+  .programs {
+    -webkit-box-orient: vertical  !important;
+    -webkit-box-direction: normal  !important;
+        -ms-flex-direction: column  !important;
+            flex-direction: column  !important;
+  }
+  .programs .title {
+    width: 100%;
+    padding: 5px 30px;
+    border-radius: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .programs .title img {
+    margin-left: 10px;
+    margin-bottom: 0;
+    height: 45px;
+  }
+  .programs .progsliderContainer {
+    width: 100%;
+  }
+  .programs .progsliderContainer .slick-slide img {
+    height: 80px;
+    margin: 0 auto;
   }
 }
 
