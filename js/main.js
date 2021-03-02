@@ -11,7 +11,18 @@ jQuery(document).ready(function () {
 
 
        
-
+ $('.greenboardslider').slick({
+	dots: false,
+	infinite: true,
+	// vertical: true,
+	speed: 500,
+	slidesToShow: 1 ,
+	slidesToScroll:1,
+	autoplay:true,
+	rtl:true,
+	
+	});
+	
 
 
 $('.progslider').slick({

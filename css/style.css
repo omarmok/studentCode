@@ -304,7 +304,9 @@ header .leftarea .notification span {
       -ms-flex-direction: column;
           flex-direction: column;
   background-image: url("../images/boardBG.jpg") !important;
+  background-repeat: no-repeat;
   border: 8px solid #d49c6f;
+  background-size: cover;
 }
 
 .advertisementboard .advimage {
@@ -334,26 +336,37 @@ header .leftarea .notification span {
           filter: brightness(0) invert(1);
 }
 
-.advertisementboard .greenboardslider .ab {
-  width: 100%;
-  position: absolute;
-  right: 0;
-  left: 0;
-  z-index: 9;
-  top: 0;
+.advertisementboard .greenboardslider button.slick-next, .advertisementboard .greenboardslider button.slick-next:hover {
+  background-image: none;
+  left: -15px;
+  width: 24px;
+  height: 8px;
+  border-radius: 0;
+  top: 113%;
+  background: #ffffff;
 }
 
-.advertisementboard .greenboardslider #greenboardslider {
-  padding: 25px;
+.advertisementboard .greenboardslider button.slick-prev, .advertisementboard .greenboardslider button.slick-prev:hover {
+  background-image: none;
+  left: 25px;
+  width: 40px;
+  height: 8px;
+  border-radius: 0;
+  top: 113%;
+  background: #ffffff;
 }
 
-.advertisementboard .greenboardslider #greenboardslider p {
-  text-align: justify;
+.advertisementboard .greenboardslider .item {
   color: #fff;
-  font-size: 12px;
+  text-align: right;
 }
 
-.advertisementboard .greenboardslider #greenboardslider .ca__btn {
+.advertisementboard .greenboardslider .item p {
+  text-align: right;
+  line-height: 1.9;
+}
+
+.advertisementboard .greenboardslider .item .ca__btn {
   border-radius: 5px;
   color: #fff;
   font-size: 14px;
@@ -364,16 +377,21 @@ header .leftarea .notification span {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background: #114224;
+  background: #4cca7a;
 }
 
-.advertisementboard .greenboardslider #greenboardslider .ca__btn:hover {
-  color: #fff;
-  background: #3f9c64;
+.advertisementboard .greenboardslider .item .ca__btn:hover {
+  color: #3f9c64;
+  background: #ffffff;
 }
 
-.advertisementboard .greenboardslider #greenboardslider .carousel-indicators li {
-  height: 10px;
+.advertisementboard .greenboardslider .ab {
+  width: 100%;
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 9;
+  top: 0;
 }
 
 .Systemsrograms {

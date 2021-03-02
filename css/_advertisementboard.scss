@@ -3,8 +3,10 @@
     display: flex;
     flex-direction: column;
  
-    background-image:url("../images/boardBG.jpg") !important;
+    background-image:url("../images/boardBG.jpg")  !important;
+    background-repeat: no-repeat;
     border: 8px solid #d49c6f;
+    background-size: cover;
 
    
     .advimage{
@@ -38,6 +40,53 @@
     // width: 100%;
     // height: 100%;
     // overflow: hidden;
+    button.slick-next, button.slick-next:hover{
+      background-image: none;
+      left: -15px;
+      width: 24px;
+      height: 8px;
+      border-radius: 0;
+      top: 113%;
+      background: #ffffff;
+    }
+    button.slick-prev, button.slick-prev:hover{
+      background-image: none;
+      left: 25px;
+      width: 40px;
+      height: 8px;
+      border-radius: 0;
+      top: 113%;
+      background: #ffffff;
+    }
+    .item{
+      color:#fff;
+      text-align: right;
+      p{
+        text-align: right;
+        line-height: 1.9;
+      }
+      .ca__btn{
+              border-radius: 5px;
+              color: #fff;
+              font-size: 14px;
+              font-weight: bold;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-align: center;
+              -ms-flex-align: center;
+              align-items: center;
+              background: #4cca7a;
+              &:hover{
+                  color: #3f9c64;
+                  
+                  background: #ffffff;
+              }
+      
+            }
+
+         
+    }
  
 .ab{
    
@@ -51,40 +100,39 @@
   
 }
 
-  #greenboardslider{
-    //   position: relative;
-    //   z-index: 12;
-      padding: 25px;
-      p{
-        text-align: justify;
-        color: #fff;
-        font-size: 12px;
-      }
-      .ca__btn{
-        border-radius: 5px;
-        color: #fff;
-        font-size: 14px;
-        font-weight: bold;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        background: #114224;
-        &:hover{
-            color: #fff;
-            background: #3f9c64;
-        }
+  // #greenboardslider{
+ 
+  //     padding: 25px;
+  //     p{
+  //       text-align: justify;
+  //       color: #fff;
+  //       font-size: 12px;
+  //     }
+  //     .ca__btn{
+  //       border-radius: 5px;
+  //       color: #fff;
+  //       font-size: 14px;
+  //       font-weight: bold;
+  //       display: -webkit-box;
+  //       display: -ms-flexbox;
+  //       display: flex;
+  //       -webkit-box-align: center;
+  //       -ms-flex-align: center;
+  //       align-items: center;
+  //       background: #114224;
+  //       &:hover{
+  //           color: #fff;
+  //           background: #3f9c64;
+  //       }
 
-      }
+  //     }
 
-      .carousel-indicators{
-          li{
-           height: 10px;
-          }
-      }
-  }
+  //     .carousel-indicators{
+  //         li{
+  //          height: 10px;
+  //         }
+  //     }
+  // }
  
 }
 
