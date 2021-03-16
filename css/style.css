@@ -1687,11 +1687,32 @@ header .leftarea .notification span {
   font-weight: bold;
 }
 
-.importantNumbers .numbersContainer {
-  height: 125px;
-  min-height: 125px;
-  max-height: 125px;
+.importantNumbers .numbersContainer .importantnumberitem {
+  background: whitesmoke;
+  padding: 15px;
+  height: 115px;
   overflow-y: scroll;
+  border: 1px solid #e6e6e6;
+}
+
+.importantNumbers .numbersContainer .importantnumberitem h5 {
+  font-size: 14px;
+  color: #0b9688;
+  border-bottom: 1px solid #d6d2d2;
+  padding-bottom: 13px;
+  font-weight: bold;
+}
+
+.importantNumbers .numbersContainer .slick-slide {
+  padding: 0;
+}
+
+.importantNumbers .numbersContainer button.slick-prev, .importantNumbers .numbersContainer button.slick-prev:hover {
+  background: #fe350c;
+}
+
+.importantNumbers .numbersContainer button.slick-next, .importantNumbers .numbersContainer button.slick-next:hover {
+  background: #fe350c;
 }
 
 .importantNumbers .numbersContainer .d-flex {

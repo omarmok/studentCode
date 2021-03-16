@@ -158,7 +158,18 @@ responsive: [
 
 
 
-
+$('.numbersContainer').slick({
+	dots: false,
+	infinite: true,
+    // vertical: true,
+	speed: 1500,
+	slidesToShow: 1 ,
+	slidesToScroll:1,
+	autoplay:true,
+	rtl:true,
+	
+	});
+	
 
 // --------------------------------------------------------------------------------------------------------
 jQuery(document).ready(function($){
